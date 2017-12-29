@@ -9,6 +9,14 @@
 			<string>AppLaunchAction</string>
 			<string>AppReopenAction</string>
 		</array>
+		<key>application</key>
+		<array>
+			<string>/Users/noamross/Applications</string>
+		</array>
+		<key>at</key>
+		<array>
+			<string>/Applications/aText.app</string>
+		</array>
 		<key>ate</key>
 		<array>
 			<string>/Applications/aText.app</string>
@@ -62,6 +70,10 @@
 		<array>
 			<string>/Users/noamross/Dropbox (Personal)/mackup/Library/Application Support/Quicksilver/PlugIns/com.blacktree.Quicksilver.QSExtraScriptsPlugIn.92.qsplugin/Contents/Resources/ExtraScripts/System/Restart</string>
 		</array>
+		<key>rs</key>
+		<array>
+			<string>/Applications/RStudio.app</string>
+		</array>
 		<key>rstu</key>
 		<array>
 			<string>/Applications/RStudio.app</string>
@@ -100,8 +112,10 @@
 		</dict>
 		<key>/Applications/RStudio.app</key>
 		<dict>
-			<key>rstu</key>
+			<key>rs</key>
 			<integer>1</integer>
+			<key>rstu</key>
+			<integer>2</integer>
 			<key>rstud</key>
 			<integer>1</integer>
 		</dict>
@@ -114,6 +128,8 @@
 		</dict>
 		<key>/Applications/aText.app</key>
 		<dict>
+			<key>at</key>
+			<integer>1</integer>
 			<key>ate</key>
 			<integer>2</integer>
 			<key>atex</key>
@@ -144,6 +160,11 @@
 		<key>/System/Library/PreferencePanes/Trackpad.prefPane</key>
 		<dict>
 			<key>track</key>
+			<integer>1</integer>
+		</dict>
+		<key>/Users/noamross/Applications</key>
+		<dict>
+			<key>application</key>
 			<integer>1</integer>
 		</dict>
 		<key>/Users/noamross/Dropbox (Personal)/mackup/Library/Application Support/Quicksilver/PlugIns/com.blacktree.Quicksilver.QSExtraScriptsPlugIn.92.qsplugin/Contents/Resources/ExtraScripts/System/Restart</key>

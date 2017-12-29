@@ -1,3 +1,5 @@
+git
+#install xcode command line tools
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew install git
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
@@ -19,6 +21,8 @@ brew install ncdu
 brew install z
 brew install pv
 brew install hub
+brew install ccache
+brew install pandoc
 brew cask install java
 brew install r —-with-java —-with-openblas
 
@@ -36,9 +40,10 @@ brew cask install docker
 brew cask install atext
 brew cask install quicksilver
 brew cask install bettertouchtool
-
+brew cask install disk-inventory-x
+brew cask install vlc
 brew tap caskroom/fonts
-
+brew cask install font-hack
 
 sudo nvram SystemAudioVolume=" "
 defaults write com.apple.finder CreateDesktop false
@@ -48,4 +53,6 @@ scutil --set HostName erasmus
 
 killall Finder
 
-export BYOBU_PREFIX=/usr/local
+Rscript -e "install.packages(c('devtools', 'tidyverse'))"
+Rscript -e "devtools::install_github(c('yihui/tinytex'))"
+Rscript -e "tinytex::install_tinytex()"
