@@ -17,3 +17,5 @@
 
 [pull]
   rebase = true
+[hub]
+	protocol = https
