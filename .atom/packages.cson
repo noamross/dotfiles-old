@@ -1,0 +1,7 @@
+packages: [
+  "git-plus"
+  "minimap"
+  "package-sync"
+  "send-code"
+  "tablr"
+]

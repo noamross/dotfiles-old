@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>command</key>
+	<dict>
+		<key>class</key>
+		<string>QSCommand</string>
+		<key>data</key>
+		<dict>
+			<key>qs.command</key>
+			<dict>
+				<key>actionID</key>
+				<string>QSCommandExecuteAction</string>
+				<key>directID</key>
+				<string>QSID:QSPresetObjectHistory:Google Chrome (Menu Bar Items…)  New Window</string>
+			</dict>
+		</dict>
+		<key>properties</key>
+		<dict>
+			<key>QSObjectObjectID</key>
+			<string>QSID:QSPresetObjectHistory:Execute Google Chrome (Menu Bar Items…)  New Window</string>
+			<key>QSObjectType</key>
+			<string>qs.command</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

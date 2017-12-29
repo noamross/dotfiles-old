@@ -8,6 +8,8 @@
 		<true/>
 		<key>AFPMount</key>
 		<true/>
+		<key>ActivateWindow</key>
+		<true/>
 		<key>AppActivateAction</key>
 		<false/>
 		<key>AppHideAction</key>
@@ -36,6 +38,8 @@
 		<true/>
 		<key>CIFSMount</key>
 		<true/>
+		<key>CloseWindow</key>
+		<true/>
 		<key>ConnectUsingFTP</key>
 		<true/>
 		<key>ConnectUsingHTTP</key>
@@ -59,6 +63,8 @@
 		<key>ConnectUsingVNC</key>
 		<true/>
 		<key>ConvertTextToHost</key>
+		<true/>
+		<key>CurrentDocumentForApp</key>
 		<true/>
 		<key>DiskEjectAction</key>
 		<true/>
@@ -96,6 +102,8 @@
 		<true/>
 		<key>FileToTrashAction</key>
 		<true/>
+		<key>FocusedWindowForApp</key>
+		<true/>
 		<key>GetFTPURL</key>
 		<false/>
 		<key>GetHTTPSURL</key>
@@ -104,7 +112,13 @@
 		<false/>
 		<key>GetHostInfo</key>
 		<true/>
+		<key>GetWindowsForApp</key>
+		<true/>
+		<key>ListWindowsForApp</key>
+		<true/>
 		<key>MSRemoteDesktop</key>
+		<true/>
+		<key>MinimizeWindow</key>
 		<true/>
 		<key>PasteboardCopyAction</key>
 		<true/>
@@ -216,8 +230,12 @@
 		<true/>
 		<key>QSObjectShowSourceAction</key>
 		<true/>
+		<key>QSPickMenuItemsAction</key>
+		<true/>
 		<key>QSPutOnShelfAction</key>
 		<false/>
+		<key>QSSearchMenuItemsAction</key>
+		<true/>
 		<key>QSShelfShowAction</key>
 		<true/>
 		<key>QSShellScriptRunWithArgsAction</key>
@@ -227,6 +245,12 @@
 		<key>QSTextSpeakAction</key>
 		<false/>
 		<key>QSTextTypeAction</key>
+		<true/>
+		<key>QSUIElementDoActionAction</key>
+		<true/>
+		<key>QSUIElementPickAction</key>
+		<true/>
+		<key>QSUIElementPressAction</key>
 		<true/>
 		<key>QSiTerm2ExecuteScriptInCurrent</key>
 		<false/>
@@ -256,6 +280,10 @@
 		<true/>
 		<key>QSiTerm2OpenSessionWindow</key>
 		<true/>
+		<key>RaiseWindow</key>
+		<false/>
+		<key>UISelectApplication</key>
+		<true/>
 		<key>URLEmailAction</key>
 		<true/>
 		<key>URLJSAction</key>
@@ -266,6 +294,8 @@
 		<true/>
 		<key>URLOpenWithAction</key>
 		<false/>
+		<key>ZoomWindow</key>
+		<true/>
 	</dict>
 	<key>actionIndirects</key>
 	<dict>
@@ -274,12 +304,22 @@
 			<string>QSHotKeyTrigger</string>
 			<string>QSGroupTrigger</string>
 		</array>
+		<key>QSCommandSaveAction</key>
+		<array>
+			<string>/Users/noamross/.scripts</string>
+		</array>
+		<key>QSPickMenuItemsAction</key>
+		<array>
+			<string>bundle:com.google.Chrome:name:New Window</string>
+		</array>
 	</dict>
 	<key>actionMenuActivation</key>
 	<dict>
 		<key>AFPBrowse</key>
 		<true/>
 		<key>AFPMount</key>
+		<true/>
+		<key>ActivateWindow</key>
 		<true/>
 		<key>AppActivateAction</key>
 		<false/>
@@ -309,6 +349,8 @@
 		<true/>
 		<key>CIFSMount</key>
 		<true/>
+		<key>CloseWindow</key>
+		<true/>
 		<key>ConnectUsingFTP</key>
 		<true/>
 		<key>ConnectUsingHTTP</key>
@@ -332,6 +374,8 @@
 		<key>ConnectUsingVNC</key>
 		<true/>
 		<key>ConvertTextToHost</key>
+		<true/>
+		<key>CurrentDocumentForApp</key>
 		<true/>
 		<key>DiskEjectAction</key>
 		<true/>
@@ -369,6 +413,8 @@
 		<true/>
 		<key>FileToTrashAction</key>
 		<true/>
+		<key>FocusedWindowForApp</key>
+		<true/>
 		<key>GetFTPURL</key>
 		<false/>
 		<key>GetHTTPSURL</key>
@@ -377,7 +423,13 @@
 		<false/>
 		<key>GetHostInfo</key>
 		<true/>
+		<key>GetWindowsForApp</key>
+		<true/>
+		<key>ListWindowsForApp</key>
+		<true/>
 		<key>MSRemoteDesktop</key>
+		<true/>
+		<key>MinimizeWindow</key>
 		<true/>
 		<key>PasteboardCopyAction</key>
 		<true/>
@@ -489,8 +541,12 @@
 		<true/>
 		<key>QSObjectShowSourceAction</key>
 		<true/>
+		<key>QSPickMenuItemsAction</key>
+		<true/>
 		<key>QSPutOnShelfAction</key>
 		<false/>
+		<key>QSSearchMenuItemsAction</key>
+		<true/>
 		<key>QSShelfShowAction</key>
 		<true/>
 		<key>QSShellScriptRunWithArgsAction</key>
@@ -500,6 +556,12 @@
 		<key>QSTextSpeakAction</key>
 		<false/>
 		<key>QSTextTypeAction</key>
+		<true/>
+		<key>QSUIElementDoActionAction</key>
+		<true/>
+		<key>QSUIElementPickAction</key>
+		<true/>
+		<key>QSUIElementPressAction</key>
 		<true/>
 		<key>QSiTerm2ExecuteScriptInCurrent</key>
 		<false/>
@@ -529,6 +591,10 @@
 		<true/>
 		<key>QSiTerm2OpenSessionWindow</key>
 		<true/>
+		<key>RaiseWindow</key>
+		<false/>
+		<key>UISelectApplication</key>
+		<true/>
 		<key>URLEmailAction</key>
 		<true/>
 		<key>URLJSAction</key>
@@ -539,6 +605,8 @@
 		<true/>
 		<key>URLOpenWithAction</key>
 		<false/>
+		<key>ZoomWindow</key>
+		<true/>
 	</dict>
 	<key>actionNames</key>
 	<dict/>
@@ -548,6 +616,8 @@
 		<real>0.0</real>
 		<key>AFPMount</key>
 		<real>0.0</real>
+		<key>ActivateWindow</key>
+		<real>3</real>
 		<key>AppActivateAction</key>
 		<real>0.0</real>
 		<key>AppHideAction</key>
@@ -576,6 +646,8 @@
 		<real>0.5</real>
 		<key>CIFSMount</key>
 		<real>0.5</real>
+		<key>CloseWindow</key>
+		<real>0.0</real>
 		<key>ConnectUsingFTP</key>
 		<real>0.0</real>
 		<key>ConnectUsingHTTP</key>
@@ -599,6 +671,8 @@
 		<key>ConnectUsingVNC</key>
 		<real>0.0</real>
 		<key>ConvertTextToHost</key>
+		<real>0.0</real>
+		<key>CurrentDocumentForApp</key>
 		<real>0.0</real>
 		<key>DiskEjectAction</key>
 		<real>0.0</real>
@@ -636,6 +710,8 @@
 		<real>0.10000000149011611</real>
 		<key>FileToTrashAction</key>
 		<real>0.0</real>
+		<key>FocusedWindowForApp</key>
+		<real>0.0</real>
 		<key>GetFTPURL</key>
 		<real>0.0</real>
 		<key>GetHTTPSURL</key>
@@ -644,7 +720,13 @@
 		<real>0.0</real>
 		<key>GetHostInfo</key>
 		<real>0.0</real>
+		<key>GetWindowsForApp</key>
+		<real>0.0</real>
+		<key>ListWindowsForApp</key>
+		<real>0.0</real>
 		<key>MSRemoteDesktop</key>
+		<real>0.0</real>
+		<key>MinimizeWindow</key>
 		<real>0.0</real>
 		<key>PasteboardCopyAction</key>
 		<real>-0.5</real>
@@ -756,7 +838,11 @@
 		<real>0.0</real>
 		<key>QSObjectShowSourceAction</key>
 		<real>0.0</real>
+		<key>QSPickMenuItemsAction</key>
+		<real>0.0</real>
 		<key>QSPutOnShelfAction</key>
+		<real>0.0</real>
+		<key>QSSearchMenuItemsAction</key>
 		<real>0.0</real>
 		<key>QSShelfShowAction</key>
 		<real>0.0</real>
@@ -768,6 +854,12 @@
 		<real>0.0</real>
 		<key>QSTextTypeAction</key>
 		<real>0.0</real>
+		<key>QSUIElementDoActionAction</key>
+		<real>0.0</real>
+		<key>QSUIElementPickAction</key>
+		<real>0.0</real>
+		<key>QSUIElementPressAction</key>
+		<real>3</real>
 		<key>QSiTerm2ExecuteScriptInCurrent</key>
 		<real>0.0</real>
 		<key>QSiTerm2ExecuteScriptInTab</key>
@@ -796,6 +888,10 @@
 		<real>4</real>
 		<key>QSiTerm2OpenSessionWindow</key>
 		<real>4</real>
+		<key>RaiseWindow</key>
+		<real>0.0</real>
+		<key>UISelectApplication</key>
+		<real>1</real>
 		<key>URLEmailAction</key>
 		<real>0.0</real>
 		<key>URLJSAction</key>
@@ -805,6 +901,8 @@
 		<key>URLOpenActionInBackground</key>
 		<real>1</real>
 		<key>URLOpenWithAction</key>
+		<real>0.0</real>
+		<key>ZoomWindow</key>
 		<real>0.0</real>
 	</dict>
 	<key>actionRanking</key>
@@ -822,6 +920,8 @@
 		<string>QSAirPortPowerDisable</string>
 		<string>QSAirPortPowerEnable</string>
 		<string>QSABContactShowAction</string>
+		<string>QSUIElementPressAction</string>
+		<string>ActivateWindow</string>
 		<string>FileOpenAction</string>
 		<string>QSCommandExecuteAfterDelayAction</string>
 		<string>URLOpenAction</string>
@@ -844,6 +944,7 @@
 		<string>QSAirPortDisassociate</string>
 		<string>ConnectUsingSSHuser</string>
 		<string>ConnectUsingSSHroot</string>
+		<string>UISelectApplication</string>
 		<string>CIFSMount</string>
 		<string>CIFSBrowse</string>
 		<string>FileRevealAction</string>
@@ -928,6 +1029,18 @@
 		<string>QSGoogleChromeReloadTab</string>
 		<string>QSGoogleChromeRevealTab</string>
 		<string>QSGoogleChromeOpenURLInSourceBrowser</string>
+		<string>QSPickMenuItemsAction</string>
+		<string>MinimizeWindow</string>
+		<string>QSUIElementPickAction</string>
+		<string>CurrentDocumentForApp</string>
+		<string>ZoomWindow</string>
+		<string>ListWindowsForApp</string>
+		<string>CloseWindow</string>
+		<string>FocusedWindowForApp</string>
+		<string>GetWindowsForApp</string>
+		<string>QSUIElementDoActionAction</string>
+		<string>RaiseWindow</string>
+		<string>QSSearchMenuItemsAction</string>
 		<string>QSCatalogAddEntryAction</string>
 		<string>QSObjectAssignMnemonic</string>
 		<string>PasteboardPasteActionAsPlainText</string>

@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildMachineOSBuild</key>
+	<string>13B42</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleDisplayName</key>
+	<string>User Interface Plugin</string>
+	<key>CFBundleExecutable</key>
+	<string>UI Access</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.blacktree.Quicksilver.QSUIAccessPlugIn</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>User Interface Plugin</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>2.2.1</string>
+	<key>CFBundleVersion</key>
+	<string>247</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string>5A2034a</string>
+	<key>DTPlatformVersion</key>
+	<string>GM</string>
+	<key>DTSDKBuild</key>
+	<string>13A595</string>
+	<key>DTSDKName</key>
+	<string>macosx10.9</string>
+	<key>DTXcode</key>
+	<string>0501</string>
+	<key>DTXcodeBuild</key>
+	<string>5A2034a</string>
+	<key>NSPrincipalClass</key>
+	<string>QSUIAccessPlugIn</string>
+	<key>QSActions</key>
+	<dict>
+		<key>ActivateWindow</key>
+		<dict>
+			<key>actionClass</key>
+			<string>QSUIAccessPlugIn_Action</string>
+			<key>actionSelector</key>
+			<string>activateWindow:</string>
+			<key>alternateAction</key>
+			<string>CloseWindow</string>
+			<key>directTypes</key>
+			<array>
+				<string>WindowsType</string>
+			</array>
+			<key>name</key>
+			<string>Activate Window</string>
+			<key>precedence</key>
+			<integer>3</integer>
+			<key>validatesObjects</key>
+			<false/>
+		</dict>
+		<key>CloseWindow</key>
+		<dict>
+			<key>actionClass</key>
+			<string>QSUIAccessPlugIn_Action</string>
+			<key>actionSelector</key>
+			<string>closeWindow:</string>
+			<key>alternateAction</key>
+			<string>ActivateWindow</string>
+			<key>directTypes</key>
+			<array>
+				<string>WindowsType</string>
+			</array>
+			<key>name</key>
+			<string>Close Window</string>
+			<key>validatesObjects</key>
+			<false/>
+		</dict>
+		<key>CurrentDocumentForApp</key>
+		<dict>
+			<key>actionClass</key>
+			<string>QSUIAccessPlugIn_Action</string>
+			<key>actionSelector</key>
+			<string>currentDocumentForApp:</string>
+			<key>directTypes</key>
+			<array>
+				<string>qs.process</string>
+			</array>
+			<key>displaysResult</key>
+			<true/>
+			<key>icon</key>
+			<string>Document</string>
+			<key>name</key>
+			<string>Current Document</string>
+			<key>validatesObjects</key>
+			<false/>
+		</dict>
+		<key>FocusedWindowForApp</key>
+		<dict>
+			<key>actionClass</key>
+			<string>QSUIAccessPlugIn_Action</string>
+			<key>actionSelector</key>
+			<string>focusedWindowForApp:</string>
+			<key>directTypes</key>
+			<array>
+				<string>qs.process</string>
+			</array>
+			<key>displaysResult</key>
+			<true/>
+			<key>name</key>
+			<string>Focused Window</string>
+			<key>validatesObjects</key>
+			<false/>
+		</dict>
+		<key>GetWindowsForApp</key>
+		<dict>
+			<key>actionClass</key>
+			<string>QSUIAccessPlugIn_Action</string>
+			<key>actionSelector</key>
+			<string>getWindowsForApp:</string>
+			<key>directTypes</key>
+			<array>
+				<string>qs.process</string>
+			</array>
+			<key>displaysResult</key>
+			<true/>
+			<key>name</key>
+			<string>Show Windows</string>
+			<key>validatesObjects</key>
+			<false/>
+		</dict>
+		<key>ListWindowsForApp</key>
+		<dict>
+			<key>actionClass</key>
+			<string>QSUIAccessPlugIn_Action</string>
+			<key>actionSelector</key>
+			<string>appWindows:activateWindow:</string>
+			<key>directTypes</key>
+			<array>
+				<string>qs.process</string>
+			</array>
+			<key>name</key>
+			<string>Windows…</string>
+		</dict>
+		<key>MinimizeWindow</key>
+		<dict>
+			<key>actionClass</key>
+			<string>QSUIAccessPlugIn_Action</string>
+			<key>actionSelector</key>
+			<string>minimizeWindow:</string>
+			<key>alternateAction</key>
+			<string>ZoomWindow</string>
+			<key>directTypes</key>
+			<array>
+				<string>WindowsType</string>
+			</array>
+			<key>name</key>
+			<string>Minimize Window</string>
+			<key>validatesObjects</key>
+			<false/>
+		</dict>
+		<key>QSPickMenuItemsAction</key>
+		<dict>
+			<key>actionClass</key>
+			<string>QSUIAccessPlugIn_Action</string>
+			<key>actionSelector</key>
+			<string>appMenus:pickItem:</string>
+			<key>directTypes</key>
+			<array>
+				<string>WindowsType</string>
+				<string>qs.process</string>
+			</array>
+			<key>name</key>
+			<string>Menu Bar Items…</string>
+		</dict>
+		<key>QSSearchMenuItemsAction</key>
+		<dict>
+			<key>actionClass</key>
+			<string>QSUIAccessPlugIn_Action</string>
+			<key>actionSelector</key>
+			<string>searchAppMenus:</string>
+			<key>directTypes</key>
+			<array>
+				<string>qs.process</string>
+				<string>WindowsType</string>
+			</array>
+			<key>name</key>
+			<string>Show Menu Items</string>
+		</dict>
+		<key>QSUIElementDoActionAction</key>
+		<dict>
+			<key>actionClass</key>
+			<string>QSUIAccessPlugIn_Action</string>
+			<key>actionSelector</key>
+			<string>uiElement:performAction:</string>
+			<key>directTypes</key>
+			<array>
+				<string>qs.ui.element</string>
+			</array>
+			<key>name</key>
+			<string>Perform Action…</string>
+			<key>validatesObjects</key>
+			<false/>
+		</dict>
+		<key>QSUIElementPickAction</key>
+		<dict>
+			<key>actionClass</key>
+			<string>QSUIAccessPlugIn_Action</string>
+			<key>actionSelector</key>
+			<string>pickUIElement:</string>
+			<key>directTypes</key>
+			<array>
+				<string>qs.ui.element</string>
+			</array>
+			<key>name</key>
+			<string>Select</string>
+			<key>validatesObjects</key>
+			<true/>
+		</dict>
+		<key>QSUIElementPressAction</key>
+		<dict>
+			<key>actionClass</key>
+			<string>QSUIAccessPlugIn_Action</string>
+			<key>actionSelector</key>
+			<string>pressUIElement:</string>
+			<key>directTypes</key>
+			<array>
+				<string>qs.ui.element</string>
+			</array>
+			<key>name</key>
+			<string>Press</string>
+			<key>precedence</key>
+			<integer>3</integer>
+			<key>validatesObjects</key>
+			<true/>
+		</dict>
+		<key>RaiseWindow</key>
+		<dict>
+			<key>actionClass</key>
+			<string>QSUIAccessPlugIn_Action</string>
+			<key>actionSelector</key>
+			<string>raiseWindow:</string>
+			<key>alternateAction</key>
+			<string>CloseWindow</string>
+			<key>directTypes</key>
+			<array>
+				<string>WindowsType</string>
+			</array>
+			<key>enabled</key>
+			<false/>
+			<key>name</key>
+			<string>Raise Window</string>
+			<key>validatesObjects</key>
+			<false/>
+		</dict>
+		<key>UISelectApplication</key>
+		<dict>
+			<key>actionClass</key>
+			<string>QSUIAccessPlugIn_Action</string>
+			<key>actionSelector</key>
+			<string>showWindowApplication:</string>
+			<key>directTypes</key>
+			<array>
+				<string>WindowsType</string>
+			</array>
+			<key>displaysResult</key>
+			<true/>
+			<key>name</key>
+			<string>Select Application</string>
+			<key>precedence</key>
+			<integer>1</integer>
+			<key>validatesObjects</key>
+			<false/>
+		</dict>
+		<key>ZoomWindow</key>
+		<dict>
+			<key>actionClass</key>
+			<string>QSUIAccessPlugIn_Action</string>
+			<key>actionSelector</key>
+			<string>zoomWindow:</string>
+			<key>alternateAction</key>
+			<string>MinimizeWindow</string>
+			<key>directTypes</key>
+			<array>
+				<string>WindowsType</string>
+			</array>
+			<key>name</key>
+			<string>Zoom Window</string>
+			<key>validatesObjects</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>QSLoadImmediately</key>
+	<true/>
+	<key>QSPlugIn</key>
+	<dict>
+		<key>author</key>
+		<string>Blacktree, Inc.</string>
+		<key>categories</key>
+		<array>
+			<string>System</string>
+		</array>
+		<key>description</key>
+		<string>Access the menus and windows of running applications.</string>
+		<key>extendedDescription</key>
+		<string>&lt;h2&gt;User Interface Plugin&lt;/h2&gt;
+&lt;p&gt;This plugin adds the ability to search for and manipulate running applications (processes), application windows, and application menu items from Quicksilver.&lt;/p&gt;
+&lt;p&gt;Access for assistive devices &lt;strong&gt;must&lt;/strong&gt; be enabled in 'Universal Access' pane of System Preferences to use this plugin.&lt;/p&gt;
+&lt;h3&gt;Processes&lt;/h3&gt;
+&lt;p&gt;Processes represent applications which are currently running on your Mac. Any application in Quicksilver's catalog can be used as a process if that app is running. The following actions are available for processes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Show Menu Items&lt;/strong&gt; – Generates and displays a searchable list of the app's menu items.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Show Windows&lt;/strong&gt; – Generates and displays a list of the app's windows, searchable by window title.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Focused Window&lt;/strong&gt; – Fetches and displays the app's focused window – this is usually the most recently used window, and the window which would get keyboard input if you started typing.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Current Document&lt;/strong&gt; – Fetches and displays the file which corresponds with the document open in the app's focused window.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Selecting these objects in the second pane causes the third pane to display the results:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Windows…&lt;/strong&gt; – Generates a list of the app's windows, searchable by window title. Pressing return on one of these windows is equivalent to using the Activate action on it.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Menu Bar Items…&lt;/strong&gt; – Generates a searchable list of the app's menu items. Pressing return on one of these menu items is equivalent to using the Press action on it.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Windows&lt;/h3&gt;
+&lt;p&gt;Windows can also have several actions performed on them (you can view a full list in the &lt;a href="qs://preferences#QSActionsPrefPane"&gt;Actions preferences&lt;/a&gt; by selecting 'Application Windows' from the dropdown types list). Several of the actions also have alternate actions (which can be executed with ⌘↩), you can see these in the same place in the Actions preferences:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Select Application&lt;/strong&gt; - shows the application for the selected window in Quicksilver&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Activate Window&lt;/strong&gt; – Focuses the window, then makes all windows belonging to the app appear in front of all other windows.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Raise&lt;/strong&gt; – Makes the window appear in front of all other windows, without changing which app is focused.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Close&lt;/strong&gt; – The same as pressing the red Close button in the window's title bar.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Minimize Window&lt;/strong&gt; – The same as pressing the amber Minimize button in the window's title bar.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Zoom&lt;/strong&gt; – The same as pressing the green Zoom button in the window's title bar.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Show Menu Items &amp;amp; Menu Bar Items...&lt;/strong&gt; - See above (Processes section). These actions work just the same as for processes, except they show the menu bar items for a specific window. Menu bar items may be different for each window, so this is useful for selecting items specific to one window.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;em&gt;Note: The 'Close', 'Minimize' and 'Zoom' actions work with the comma trick, allowing you to manage multiple windows at once&lt;/em&gt;&lt;/p&gt;
+&lt;h3&gt;Menu Items&lt;/h3&gt;
+&lt;p&gt;Menu Items only have one action available: &lt;strong&gt;Press&lt;/strong&gt;. This has the same effect as clicking the menu item.
+To better indicate where Menu Items have come from, their details will show the full Menu path. For example: "Edit ▸ Find ▸ Find…"&lt;/p&gt;
+&lt;h3&gt;Triggers&lt;/h3&gt;
+&lt;p&gt;When this plugin is installed, the following triggers are available in the UI Access section of the Triggers preference pane:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Show All Menus&lt;/strong&gt; – Generates and displays a searchable list of the menu items of all running apps, grouped by app.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Show All Windows&lt;/strong&gt; – Generates and displays a list of the windows of all running apps, searchable by window title and app name.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Current Application&lt;/strong&gt; – Fetches the current app, places it in the first pane of the command window, and selects the second pane of the command window.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Current Focused Window&lt;/strong&gt; – Fetches the current app's focused window, places it in the first pane of the command window, and selects the second pane of the command window.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Current Document&lt;/strong&gt; – Fetches the document open in the current app's focused window, places it in the first pane of the command window, and selects the second pane of the command window.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Proxy Objects&lt;/h3&gt;
+&lt;p&gt;When this plugin is installed, the following proxy objects are available in the Proxy Objects source in the Quicksilver section of the Catalog preference pane:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Current Focused Window&lt;/strong&gt; – Represents the current app's focused window. The current app is whichever app currently has it's name in the menu bar. The focused window is usually the most recently used window, and the window which would get keyboard input if you started typing.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Current Document&lt;/strong&gt; – Represents the file which corresponds with the document open in the current app's focused window.&lt;/li&gt;
+&lt;/ul&gt;</string>
+		<key>icon</key>
+		<string>UniversalAccessPref</string>
+	</dict>
+	<key>QSRegistration</key>
+	<dict>
+		<key>QSActionProviders</key>
+		<dict>
+			<key>QSUIAccessPlugIn_Action</key>
+			<string>QSUIAccessPlugIn_Action</string>
+		</dict>
+		<key>QSCommands</key>
+		<dict>
+			<key>ShowAllAppMenusCommand</key>
+			<dict>
+				<key>command</key>
+				<dict>
+					<key>actionID</key>
+					<string>QSObjCSendMessageAction</string>
+					<key>directID</key>
+					<string>AllAppMenusMessage</string>
+					<key>name</key>
+					<string>Show All Menus</string>
+				</dict>
+			</dict>
+			<key>ShowAllAppWindowsCommand</key>
+			<dict>
+				<key>command</key>
+				<dict>
+					<key>actionID</key>
+					<string>QSObjCSendMessageAction</string>
+					<key>directID</key>
+					<string>AllAppWindowsMessage</string>
+					<key>name</key>
+					<string>Show All Windows</string>
+				</dict>
+			</dict>
+		</dict>
+		<key>QSInternalMessages</key>
+		<dict>
+			<key>AllAppMenusMessage</key>
+			<dict>
+				<key>actionClass</key>
+				<string>QSUIAccessPlugIn_Action</string>
+				<key>actionSelector</key>
+				<string>allAppMenus:</string>
+				<key>icon</key>
+				<string>Object</string>
+				<key>name</key>
+				<string>Show All Menus</string>
+				<key>runInMainThread</key>
+				<true/>
+			</dict>
+			<key>AllAppWindowsMessage</key>
+			<dict>
+				<key>actionClass</key>
+				<string>QSUIAccessPlugIn_Action</string>
+				<key>actionSelector</key>
+				<string>allAppWindows:</string>
+				<key>icon</key>
+				<string>WindowIcon</string>
+				<key>name</key>
+				<string>Show All Windows</string>
+				<key>runInMainThread</key>
+				<true/>
+			</dict>
+		</dict>
+		<key>QSObjectHandlers</key>
+		<dict>
+			<key>WindowsType</key>
+			<string>QSUIAccessPlugIn_Source</string>
+			<key>qs.ui.action</key>
+			<string>QSUIAccessPlugIn_Source</string>
+			<key>qs.ui.element</key>
+			<string>QSUIAccessPlugIn_Source</string>
+		</dict>
+		<key>QSProxies</key>
+		<dict>
+			<key>CurrentDocument</key>
+			<dict>
+				<key>icon</key>
+				<string>GenericDocumentIcon</string>
+				<key>name</key>
+				<string>Current Document</string>
+				<key>providerClass</key>
+				<string>QSUIAccessPlugIn_Action</string>
+				<key>types</key>
+				<array>
+					<string>NSFilenamesPboardType</string>
+					<string>Apple URL pasteboard type</string>
+				</array>
+			</dict>
+			<key>CurrentFocusedWindow</key>
+			<dict>
+				<key>icon</key>
+				<string>WindowIcon</string>
+				<key>name</key>
+				<string>Current Focused Window</string>
+				<key>providerClass</key>
+				<string>QSUIAccessPlugIn_Action</string>
+				<key>types</key>
+				<array>
+					<string>WindowsType</string>
+				</array>
+			</dict>
+		</dict>
+		<key>QSTriggerSets</key>
+		<dict>
+			<key>UIAccess</key>
+			<dict>
+				<key>icon</key>
+				<string>UniversalAccessPref</string>
+				<key>name</key>
+				<string>UI Access</string>
+			</dict>
+		</dict>
+		<key>QSTypeDefinitions</key>
+		<dict>
+			<key>WindowsType</key>
+			<dict>
+				<key>icon</key>
+				<string>WindowIcon</string>
+				<key>name</key>
+				<string>Application Windows</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>QSRequirements</key>
+	<dict>
+		<key>version</key>
+		<string>4001</string>
+	</dict>
+	<key>QSResourceAdditions</key>
+	<dict>
+		<key>UniversalAccessPref</key>
+		<dict>
+			<key>bundle</key>
+			<string>com.blacktree.Quicksilver.QSUIAccessPlugIn</string>
+			<key>resource</key>
+			<string>UniversalAccessPref.tiff</string>
+		</dict>
+		<key>WindowIcon</key>
+		<dict>
+			<key>bundle</key>
+			<string>com.blacktree.Quicksilver.QSUIAccessPlugIn</string>
+			<key>resource</key>
+			<string>WindowIcon.png</string>
+		</dict>
+	</dict>
+	<key>QSTriggerAdditions</key>
+	<array>
+		<dict>
+			<key>ID</key>
+			<string>ShowAllAppWindowsCommand</string>
+			<key>command</key>
+			<string>ShowAllAppWindowsCommand</string>
+			<key>set</key>
+			<string>UI Access</string>
+			<key>type</key>
+			<string>QSHotKeyTrigger</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>ShowAllAppMenusCommand</string>
+			<key>command</key>
+			<string>ShowAllAppMenusCommand</string>
+			<key>set</key>
+			<string>UI Access</string>
+			<key>type</key>
+			<string>QSHotKeyTrigger</string>
+		</dict>
+	</array>
+</dict>
+</plist>

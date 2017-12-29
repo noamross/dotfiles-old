@@ -1,4 +1,5 @@
-options(repos=c("https://cloud.r-project.org"),
+
+options(repos = "https://cloud.r-project.org",
         useFancyQuotes = FALSE,
         warnPartialMatchAttr = TRUE,
         warnPartialMatchDollar = TRUE,

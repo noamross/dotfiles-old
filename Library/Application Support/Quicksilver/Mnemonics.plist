@@ -25,6 +25,22 @@
 		<array>
 			<string>/Applications/aText.app</string>
 		</array>
+		<key>b</key>
+		<array>
+			<string>http://www.ebay.com/sch/i.html?_from=R40&amp;_trksid=p5197.m570.l1313&amp;_nkw=***&amp;_sacat=See-All-Categories</string>
+		</array>
+		<key>bettert</key>
+		<array>
+			<string>/Applications/BetterTouchTool.app</string>
+		</array>
+		<key>bettertou</key>
+		<array>
+			<string>/Applications/BetterTouchTool.app</string>
+		</array>
+		<key>chrom</key>
+		<array>
+			<string>/Applications/Google Chrome.app</string>
+		</array>
 		<key>clip</key>
 		<array>
 			<string>QSClipboardStorageCopy0</string>
@@ -46,21 +62,61 @@
 		<array>
 			<string>[Shelf]:QSPasteboardHistory</string>
 		</array>
+		<key>disp</key>
+		<array>
+			<string>/System/Library/PreferencePanes/Displays.prefPane</string>
+		</array>
 		<key>drop</key>
 		<array>
 			<string>/Users/noamross/dropbox</string>
+		</array>
+		<key>internet</key>
+		<array>
+			<string>/System/Library/PreferencePanes/InternetAccounts.prefPane</string>
+		</array>
+		<key>iter</key>
+		<array>
+			<string>/Applications/iTerm.app</string>
 		</array>
 		<key>library</key>
 		<array>
 			<string>/System/Library/CoreServices/Photo Library Migration Utility.app</string>
 		</array>
+		<key>mac</key>
+		<array>
+			<string>/</string>
+		</array>
 		<key>macin</key>
 		<array>
 			<string>/</string>
 		</array>
+		<key>new</key>
+		<array>
+			<string>/Users/noamross/Dropbox (Personal)/mackup/.scripts/NewChromeWindow.qscommand</string>
+		</array>
+		<key>newch</key>
+		<array>
+			<string>/Users/noamross/Dropbox (Personal)/mackup/.scripts/NewChromeWindow.qscommand</string>
+		</array>
+		<key>newchrm</key>
+		<array>
+			<string>/Users/noamross/Dropbox (Personal)/mackup/.scripts/NewChromeWindow.qscommand</string>
+		</array>
+		<key>noamr</key>
+		<array>
+			<string>/Users/noamross</string>
+		</array>
+		<key>noamross</key>
+		<array>
+			<string>E9BF0F8A-B988-497A-9409-173389AE935E:ABPerson</string>
+		</array>
 		<key>quicksil</key>
 		<array>
 			<string>/Applications/Quicksilver.app</string>
+		</array>
+		<key>res</key>
+		<array>
+			<string>QSRescanCatalogMessage</string>
 		</array>
 		<key>rescan</key>
 		<array>
@@ -74,6 +130,10 @@
 		<array>
 			<string>/Applications/RStudio.app</string>
 		</array>
+		<key>rst</key>
+		<array>
+			<string>/Applications/RStudio.app</string>
+		</array>
 		<key>rstu</key>
 		<array>
 			<string>/Applications/RStudio.app</string>
@@ -82,21 +142,67 @@
 		<array>
 			<string>/Applications/RStudio.app</string>
 		</array>
+		<key>script</key>
+		<array>
+			<string>/Users/noamross/.scripts</string>
+		</array>
+		<key>security</key>
+		<array>
+			<string>/System/Library/PreferencePanes/Security.prefPane</string>
+		</array>
 		<key>shelf</key>
 		<array>
 			<string>[Shelf]:General</string>
 		</array>
+		<key>sla</key>
+		<array>
+			<string>/Applications/Slack.app</string>
+		</array>
+		<key>sysmpre</key>
+		<array>
+			<string>QSPresetLibraryPreferencePanes</string>
+		</array>
+		<key>systempre</key>
+		<array>
+			<string>/Applications/System Preferences.app</string>
+		</array>
 		<key>track</key>
 		<array>
 			<string>/System/Library/PreferencePanes/Trackpad.prefPane</string>
+		</array>
+		<key>trackp</key>
+		<array>
+			<string>/System/Library/PreferencePanes/Trackpad.prefPane</string>
+		</array>
+		<key>users</key>
+		<array>
+			<string>/System/Library/PreferencePanes/Accounts.prefPane</string>
+		</array>
+		<key>work</key>
+		<array>
+			<string>/Users/noamross/Dropbox (Personal)/workspace</string>
 		</array>
 	</dict>
 	<key>implied</key>
 	<dict>
 		<key>/</key>
 		<dict>
+			<key>mac</key>
+			<integer>1</integer>
 			<key>macin</key>
 			<integer>2</integer>
+		</dict>
+		<key>/Applications/BetterTouchTool.app</key>
+		<dict>
+			<key>bettert</key>
+			<integer>1</integer>
+			<key>bettertou</key>
+			<integer>1</integer>
+		</dict>
+		<key>/Applications/Google Chrome.app</key>
+		<dict>
+			<key>chrom</key>
+			<integer>3</integer>
 		</dict>
 		<key>/Applications/Mail.app</key>
 		<dict>
@@ -114,6 +220,8 @@
 		<dict>
 			<key>rs</key>
 			<integer>1</integer>
+			<key>rst</key>
+			<integer>1</integer>
 			<key>rstu</key>
 			<integer>2</integer>
 			<key>rstud</key>
@@ -126,13 +234,28 @@
 			<key>safari</key>
 			<integer>2</integer>
 		</dict>
+		<key>/Applications/Slack.app</key>
+		<dict>
+			<key>sla</key>
+			<integer>1</integer>
+		</dict>
+		<key>/Applications/System Preferences.app</key>
+		<dict>
+			<key>systempre</key>
+			<integer>1</integer>
+		</dict>
 		<key>/Applications/aText.app</key>
 		<dict>
 			<key>at</key>
 			<integer>1</integer>
 			<key>ate</key>
-			<integer>2</integer>
+			<integer>3</integer>
 			<key>atex</key>
+			<integer>1</integer>
+		</dict>
+		<key>/Applications/iTerm.app</key>
+		<dict>
+			<key>iter</key>
 			<integer>1</integer>
 		</dict>
 		<key>/Applications/iTunes.app</key>
@@ -157,14 +280,57 @@
 			<key>library</key>
 			<integer>2</integer>
 		</dict>
+		<key>/System/Library/PreferencePanes/Accounts.prefPane</key>
+		<dict>
+			<key>users</key>
+			<integer>1</integer>
+		</dict>
+		<key>/System/Library/PreferencePanes/Displays.prefPane</key>
+		<dict>
+			<key>disp</key>
+			<integer>1</integer>
+		</dict>
+		<key>/System/Library/PreferencePanes/InternetAccounts.prefPane</key>
+		<dict>
+			<key>internet</key>
+			<integer>1</integer>
+		</dict>
+		<key>/System/Library/PreferencePanes/Security.prefPane</key>
+		<dict>
+			<key>security</key>
+			<integer>1</integer>
+		</dict>
 		<key>/System/Library/PreferencePanes/Trackpad.prefPane</key>
 		<dict>
 			<key>track</key>
+			<integer>1</integer>
+			<key>trackp</key>
+			<integer>1</integer>
+		</dict>
+		<key>/Users/noamross</key>
+		<dict>
+			<key>noamr</key>
+			<integer>1</integer>
+		</dict>
+		<key>/Users/noamross/.scripts</key>
+		<dict>
+			<key>sc</key>
+			<integer>3</integer>
+			<key>script</key>
 			<integer>1</integer>
 		</dict>
 		<key>/Users/noamross/Applications</key>
 		<dict>
 			<key>application</key>
+			<integer>1</integer>
+		</dict>
+		<key>/Users/noamross/Dropbox (Personal)/mackup/.scripts/NewChromeWindow.qscommand</key>
+		<dict>
+			<key>new</key>
+			<integer>1</integer>
+			<key>newch</key>
+			<integer>2</integer>
+			<key>newchrm</key>
 			<integer>1</integer>
 		</dict>
 		<key>/Users/noamross/Dropbox (Personal)/mackup/Library/Application Support/Quicksilver/PlugIns/com.blacktree.Quicksilver.QSExtraScriptsPlugIn.92.qsplugin/Contents/Resources/ExtraScripts/System/Restart</key>
@@ -176,10 +342,27 @@
 		<dict>
 			<key>wo</key>
 			<integer>1</integer>
+			<key>work</key>
+			<integer>1</integer>
 		</dict>
 		<key>/Users/noamross/dropbox</key>
 		<dict>
 			<key>drop</key>
+			<integer>1</integer>
+		</dict>
+		<key>E9BF0F8A-B988-497A-9409-173389AE935E:ABPerson</key>
+		<dict>
+			<key>noamross</key>
+			<integer>2</integer>
+		</dict>
+		<key>FileGetInfoAction</key>
+		<dict>
+			<key>in</key>
+			<integer>1</integer>
+		</dict>
+		<key>FileRevealAction</key>
+		<dict>
+			<key>r</key>
 			<integer>1</integer>
 		</dict>
 		<key>QSClipboardStorageCopy0</key>
@@ -199,13 +382,41 @@
 			<key>tri</key>
 			<integer>2</integer>
 		</dict>
+		<key>QSCommandSaveAction</key>
+		<dict>
+			<key>sav</key>
+			<integer>1</integer>
+			<key>save</key>
+			<integer>1</integer>
+		</dict>
 		<key>QSHotKeyTrigger</key>
 		<dict>
 			<key>ke</key>
 			<integer>2</integer>
 		</dict>
+		<key>QSObjectShowMenu</key>
+		<dict>
+			<key>menu</key>
+			<integer>1</integer>
+			<key>showmenu</key>
+			<integer>1</integer>
+		</dict>
+		<key>QSPickMenuItemsAction</key>
+		<dict>
+			<key>menbar</key>
+			<integer>1</integer>
+			<key>menubar</key>
+			<integer>1</integer>
+		</dict>
+		<key>QSPresetLibraryPreferencePanes</key>
+		<dict>
+			<key>sysmpre</key>
+			<integer>1</integer>
+		</dict>
 		<key>QSRescanCatalogMessage</key>
 		<dict>
+			<key>res</key>
+			<integer>4</integer>
 			<key>rescan</key>
 			<integer>2</integer>
 		</dict>
@@ -228,6 +439,18 @@
 			<key>clipboardhis</key>
 			<integer>1</integer>
 			<key>cliphistory</key>
+			<integer>1</integer>
+		</dict>
+		<key>bundle:com.google.Chrome:name:New Window</key>
+		<dict>
+			<key>newwin</key>
+			<integer>1</integer>
+			<key>newwinow</key>
+			<integer>1</integer>
+		</dict>
+		<key>http://www.ebay.com/sch/i.html?_from=R40&amp;_trksid=p5197.m570.l1313&amp;_nkw=***&amp;_sacat=See-All-Categories</key>
+		<dict>
+			<key>b</key>
 			<integer>1</integer>
 		</dict>
 		<key>http://www.sciencedirect.com/science/article/pii/S0375674296000738</key>
