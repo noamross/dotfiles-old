@@ -1,0 +1,19 @@
+[credential]
+  helper = osxkeychain
+
+[user]
+  email = noam.ross@gmail.com
+  name = Noam Ross
+
+[push]
+  default = simple
+
+[core]
+  editor = vim
+  excludesfile = /Users/noamross/.global_gitignore
+
+[color]
+  ui = true
+
+[pull]
+  rebase = true

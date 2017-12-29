@@ -1,0 +1,51 @@
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew install git
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+brew install tmux
+brew install byobu
+brew install mackup
+brew install mosh
+brew install openblas
+brew install imagemagick
+brew install ag
+brew install openssl openssl@1.1 libssh2
+brew install fzf
+# To install useful key bindings and fuzzy completion:
+$(brew --prefix)/opt/fzf/install
+brew install micro
+brew install python
+brew install htop
+brew install ncdu
+brew install z
+brew install pv
+brew install hub
+brew cask install java
+brew install r —-with-java —-with-openblas
+
+brew cask install dropbox
+brew cask install google-backup-and-sync
+brew cask install google-chrome
+brew cask install slack
+brew tap caskroom/versions
+brew cask install rstudio-daily
+brew cask install xquartz
+brew cask install inkscape
+brew cask install atom
+brew cask install iterm2
+brew cask install docker
+brew cask install atext
+brew cask install quicksilver
+brew cask install bettertouchtool
+
+brew tap caskroom/fonts
+
+
+sudo nvram SystemAudioVolume=" "
+defaults write com.apple.finder CreateDesktop false
+defaults write com.apple.finder AppleShowAllFiles YES
+scutil --set ComputerName erasmus
+scutil --set HostName erasmus
+
+killall Finder
+
+export BYOBU_PREFIX=/usr/local
