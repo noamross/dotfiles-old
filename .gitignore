@@ -3,3 +3,5 @@
 *.qsshelf
 .aws/credentials
 .Rproj.user
+.subversion/auth
+.subversion/auth/*
