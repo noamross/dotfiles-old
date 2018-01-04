@@ -55,6 +55,16 @@
 		</dict>
 		<dict>
 			<key>ID</key>
+			<string>ShowAllAppWindowsCommand</string>
+			<key>command</key>
+			<string>ShowAllAppWindowsCommand</string>
+			<key>set</key>
+			<string>UI Access</string>
+			<key>type</key>
+			<string>QSHotKeyTrigger</string>
+		</dict>
+		<dict>
+			<key>ID</key>
 			<string>2F80451C-2A80-4801-9E87-4C297FB72129</string>
 			<key>command</key>
 			<dict>
@@ -71,6 +81,16 @@
 			<integer>1179914</integer>
 			<key>onPress</key>
 			<true/>
+			<key>type</key>
+			<string>QSHotKeyTrigger</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>ShowAllAppMenusCommand</string>
+			<key>command</key>
+			<string>ShowAllAppMenusCommand</string>
+			<key>set</key>
+			<string>UI Access</string>
 			<key>type</key>
 			<string>QSHotKeyTrigger</string>
 		</dict>

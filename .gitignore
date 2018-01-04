@@ -1,3 +1,5 @@
 #Mackup stuff
 .Renviron
 *.qsshelf
+.aws/credentials
+.Rproj.user

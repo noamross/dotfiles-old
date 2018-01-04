@@ -1,7 +1,11 @@
 packages: [
+  "chmod"
   "git-plus"
   "minimap"
+  "minimap-git-diff"
   "package-sync"
   "send-code"
+  "sort-lines"
+  "split-diff"
   "tablr"
 ]

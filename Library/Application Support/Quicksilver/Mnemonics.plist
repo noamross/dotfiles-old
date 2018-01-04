@@ -4,10 +4,18 @@
 <dict>
 	<key>abbreviation</key>
 	<dict>
+		<key>08_tr</key>
+		<array>
+			<string>/Users/noamross/Dropbox (EHA)/projects/08_trangucci/08_trangucci.Rproj</string>
+		</array>
 		<key>QSActionMnemonic:NSFilenamesPboardType</key>
 		<array>
 			<string>AppLaunchAction</string>
 			<string>AppReopenAction</string>
+		</array>
+		<key>aa</key>
+		<array>
+			<string>/Users/noamross/aa</string>
 		</array>
 		<key>application</key>
 		<array>
@@ -37,6 +45,18 @@
 		<array>
 			<string>/Applications/BetterTouchTool.app</string>
 		</array>
+		<key>blogpic</key>
+		<array>
+			<string>/Users/noamross/Dropbox (Personal)/Public/blogstuff/blogpic.jpg</string>
+		</array>
+		<key>bluetoo</key>
+		<array>
+			<string>/System/Library/PreferencePanes/Bluetooth.prefPane</string>
+		</array>
+		<key>boots</key>
+		<array>
+			<string>/Users/noamross/Dropbox (Personal)/mackup/.scripts/bootstrap_rpkgs</string>
+		</array>
 		<key>chrom</key>
 		<array>
 			<string>/Applications/Google Chrome.app</string>
@@ -62,6 +82,18 @@
 		<array>
 			<string>[Shelf]:QSPasteboardHistory</string>
 		</array>
+		<key>contac</key>
+		<array>
+			<string>/Applications/Contacts.app</string>
+		</array>
+		<key>datetim</key>
+		<array>
+			<string>/System/Library/PreferencePanes/DateAndTime.prefPane</string>
+		</array>
+		<key>diskin</key>
+		<array>
+			<string>/Applications/Disk Inventory X.app</string>
+		</array>
 		<key>disp</key>
 		<array>
 			<string>/System/Library/PreferencePanes/Displays.prefPane</string>
@@ -70,6 +102,14 @@
 		<array>
 			<string>/Users/noamross/dropbox</string>
 		</array>
+		<key>dropboxeha</key>
+		<array>
+			<string>/Users/noamross/dropbox-eha</string>
+		</array>
+		<key>google</key>
+		<array>
+			<string>/Users/noamross/Google Drive</string>
+		</array>
 		<key>internet</key>
 		<array>
 			<string>/System/Library/PreferencePanes/InternetAccounts.prefPane</string>
@@ -77,6 +117,14 @@
 		<key>iter</key>
 		<array>
 			<string>/Applications/iTerm.app</string>
+		</array>
+		<key>iterm</key>
+		<array>
+			<string>/Applications/iTerm.app</string>
+		</array>
+		<key>languageregio</key>
+		<array>
+			<string>/System/Library/PreferencePanes/Localization.prefPane</string>
 		</array>
 		<key>library</key>
 		<array>
@@ -89,6 +137,14 @@
 		<key>macin</key>
 		<array>
 			<string>/</string>
+		</array>
+		<key>mack</key>
+		<array>
+			<string>/Users/noamross/Dropbox (Personal)/mackup</string>
+		</array>
+		<key>midi</key>
+		<array>
+			<string>/Applications/Utilities/Audio MIDI Setup.app</string>
 		</array>
 		<key>new</key>
 		<array>
@@ -110,6 +166,19 @@
 		<array>
 			<string>E9BF0F8A-B988-497A-9409-173389AE935E:ABPerson</string>
 		</array>
+		<key>notifcat</key>
+		<array>
+			<string>/System/Library/PreferencePanes/Notifications.prefPane</string>
+		</array>
+		<key>olival</key>
+		<array>
+			<string>1CAEDA17-8D19-48BB-99ED-99A398774A0B:ABPerson</string>
+			<string>http://onlinelibrary.wiley.com/doi/10.1002/rrr.3450110109/abstract</string>
+		</array>
+		<key>photo</key>
+		<array>
+			<string>/Applications/Photos.app</string>
+		</array>
 		<key>quicksil</key>
 		<array>
 			<string>/Applications/Quicksilver.app</string>
@@ -121,6 +190,10 @@
 		<key>rescan</key>
 		<array>
 			<string>QSRescanCatalogMessage</string>
+		</array>
+		<key>resta</key>
+		<array>
+			<string>/Users/noamross/Dropbox (Personal)/mackup/Library/Application Support/Quicksilver/PlugIns/com.blacktree.Quicksilver.QSExtraScriptsPlugIn.92.qsplugin/Contents/Resources/ExtraScripts/System/Restart</string>
 		</array>
 		<key>restar</key>
 		<array>
@@ -146,6 +219,10 @@
 		<array>
 			<string>/Users/noamross/.scripts</string>
 		</array>
+		<key>scripts</key>
+		<array>
+			<string>/Users/noamross/Dropbox (Personal)/mackup/.scripts</string>
+		</array>
 		<key>security</key>
 		<array>
 			<string>/System/Library/PreferencePanes/Security.prefPane</string>
@@ -158,9 +235,17 @@
 		<array>
 			<string>/Applications/Slack.app</string>
 		</array>
+		<key>store</key>
+		<array>
+			<string>/Applications/App Store.app</string>
+		</array>
 		<key>sysmpre</key>
 		<array>
 			<string>QSPresetLibraryPreferencePanes</string>
+		</array>
+		<key>systempr</key>
+		<array>
+			<string>/Applications/System Preferences.app</string>
 		</array>
 		<key>systempre</key>
 		<array>
@@ -173,6 +258,10 @@
 		<key>trackp</key>
 		<array>
 			<string>/System/Library/PreferencePanes/Trackpad.prefPane</string>
+		</array>
+		<key>use</key>
+		<array>
+			<string>/System/Library/PreferencePanes/Accounts.prefPane</string>
 		</array>
 		<key>users</key>
 		<array>
@@ -192,6 +281,18 @@
 			<key>macin</key>
 			<integer>2</integer>
 		</dict>
+		<key>/Applications/App Store.app</key>
+		<dict>
+			<key>store</key>
+			<integer>1</integer>
+		</dict>
+		<key>/Applications/Atom.app</key>
+		<dict>
+			<key>ato</key>
+			<integer>1</integer>
+			<key>atom</key>
+			<integer>1</integer>
+		</dict>
 		<key>/Applications/BetterTouchTool.app</key>
 		<dict>
 			<key>bettert</key>
@@ -199,8 +300,20 @@
 			<key>bettertou</key>
 			<integer>1</integer>
 		</dict>
+		<key>/Applications/Contacts.app</key>
+		<dict>
+			<key>contac</key>
+			<integer>1</integer>
+		</dict>
+		<key>/Applications/Disk Inventory X.app</key>
+		<dict>
+			<key>diskin</key>
+			<integer>1</integer>
+		</dict>
 		<key>/Applications/Google Chrome.app</key>
 		<dict>
+			<key>ch</key>
+			<integer>1</integer>
 			<key>chrom</key>
 			<integer>3</integer>
 		</dict>
@@ -211,6 +324,11 @@
 			<key>mail</key>
 			<integer>2</integer>
 		</dict>
+		<key>/Applications/Photos.app</key>
+		<dict>
+			<key>photo</key>
+			<integer>1</integer>
+		</dict>
 		<key>/Applications/Quicksilver.app</key>
 		<dict>
 			<key>quicksil</key>
@@ -219,7 +337,7 @@
 		<key>/Applications/RStudio.app</key>
 		<dict>
 			<key>rs</key>
-			<integer>1</integer>
+			<integer>5</integer>
 			<key>rst</key>
 			<integer>1</integer>
 			<key>rstu</key>
@@ -241,13 +359,20 @@
 		</dict>
 		<key>/Applications/System Preferences.app</key>
 		<dict>
+			<key>systempr</key>
+			<integer>1</integer>
 			<key>systempre</key>
+			<integer>1</integer>
+		</dict>
+		<key>/Applications/Utilities/Audio MIDI Setup.app</key>
+		<dict>
+			<key>midi</key>
 			<integer>1</integer>
 		</dict>
 		<key>/Applications/aText.app</key>
 		<dict>
 			<key>at</key>
-			<integer>1</integer>
+			<integer>2</integer>
 			<key>ate</key>
 			<integer>3</integer>
 			<key>atex</key>
@@ -256,6 +381,8 @@
 		<key>/Applications/iTerm.app</key>
 		<dict>
 			<key>iter</key>
+			<integer>1</integer>
+			<key>iterm</key>
 			<integer>1</integer>
 		</dict>
 		<key>/Applications/iTunes.app</key>
@@ -282,7 +409,19 @@
 		</dict>
 		<key>/System/Library/PreferencePanes/Accounts.prefPane</key>
 		<dict>
+			<key>use</key>
+			<integer>1</integer>
 			<key>users</key>
+			<integer>3</integer>
+		</dict>
+		<key>/System/Library/PreferencePanes/Bluetooth.prefPane</key>
+		<dict>
+			<key>bluetoo</key>
+			<integer>1</integer>
+		</dict>
+		<key>/System/Library/PreferencePanes/DateAndTime.prefPane</key>
+		<dict>
+			<key>datetim</key>
 			<integer>1</integer>
 		</dict>
 		<key>/System/Library/PreferencePanes/Displays.prefPane</key>
@@ -293,6 +432,16 @@
 		<key>/System/Library/PreferencePanes/InternetAccounts.prefPane</key>
 		<dict>
 			<key>internet</key>
+			<integer>1</integer>
+		</dict>
+		<key>/System/Library/PreferencePanes/Localization.prefPane</key>
+		<dict>
+			<key>languageregio</key>
+			<integer>1</integer>
+		</dict>
+		<key>/System/Library/PreferencePanes/Notifications.prefPane</key>
+		<dict>
+			<key>notifcat</key>
 			<integer>1</integer>
 		</dict>
 		<key>/System/Library/PreferencePanes/Security.prefPane</key>
@@ -324,17 +473,81 @@
 			<key>application</key>
 			<integer>1</integer>
 		</dict>
+		<key>/Users/noamross/Dropbox (EHA)/projects/08_trangucci/08_trangucci.Rproj</key>
+		<dict>
+			<key>08_tr</key>
+			<integer>1</integer>
+		</dict>
+		<key>/Users/noamross/Dropbox (Personal)/Camera Uploads</key>
+		<dict>
+			<key>camer</key>
+			<integer>1</integer>
+		</dict>
+		<key>/Users/noamross/Dropbox (Personal)/Camera Uploads/Florida1.jpg</key>
+		<dict>
+			<key>ida</key>
+			<integer>1</integer>
+		</dict>
+		<key>/Users/noamross/Dropbox (Personal)/Camera Uploads/Pictures</key>
+		<dict>
+			<key>pic</key>
+			<integer>1</integer>
+		</dict>
+		<key>/Users/noamross/Dropbox (Personal)/Camera Uploads/Pictures/ID and Profile Photos</key>
+		<dict>
+			<key>id</key>
+			<integer>1</integer>
+		</dict>
+		<key>/Users/noamross/Dropbox (Personal)/Camera Uploads/Pictures/ID and Profile Photos/Noam_Ross_proper_profile.jpg</key>
+		<dict>
+			<key>prope</key>
+			<integer>1</integer>
+		</dict>
+		<key>/Users/noamross/Dropbox (Personal)/Key Docs</key>
+		<dict>
+			<key>key</key>
+			<integer>1</integer>
+		</dict>
+		<key>/Users/noamross/Dropbox (Personal)/Public/blogstuff/blogpic.jpg</key>
+		<dict>
+			<key>blogpic</key>
+			<integer>1</integer>
+		</dict>
+		<key>/Users/noamross/Dropbox (Personal)/mackup</key>
+		<dict>
+			<key>mack</key>
+			<integer>1</integer>
+		</dict>
+		<key>/Users/noamross/Dropbox (Personal)/mackup/.Rprofile</key>
+		<dict>
+			<key>rpr</key>
+			<integer>1</integer>
+		</dict>
+		<key>/Users/noamross/Dropbox (Personal)/mackup/.scripts</key>
+		<dict>
+			<key>scripts</key>
+			<integer>1</integer>
+		</dict>
 		<key>/Users/noamross/Dropbox (Personal)/mackup/.scripts/NewChromeWindow.qscommand</key>
 		<dict>
 			<key>new</key>
-			<integer>1</integer>
+			<integer>2</integer>
 			<key>newch</key>
 			<integer>2</integer>
 			<key>newchrm</key>
 			<integer>1</integer>
 		</dict>
+		<key>/Users/noamross/Dropbox (Personal)/mackup/.scripts/bootstrap_rpkgs</key>
+		<dict>
+			<key>boo</key>
+			<integer>1</integer>
+			<key>boots</key>
+			<integer>1</integer>
+		</dict>
 		<key>/Users/noamross/Dropbox (Personal)/mackup/Library/Application Support/Quicksilver/PlugIns/com.blacktree.Quicksilver.QSExtraScriptsPlugIn.92.qsplugin/Contents/Resources/ExtraScripts/System/Restart</key>
 		<dict>
+			<key>resta</key>
+			<integer>1</integer>
 			<key>restar</key>
 			<integer>1</integer>
 		</dict>
@@ -343,12 +556,32 @@
 			<key>wo</key>
 			<integer>1</integer>
 			<key>work</key>
+			<integer>2</integer>
+		</dict>
+		<key>/Users/noamross/Google Drive</key>
+		<dict>
+			<key>google</key>
+			<integer>1</integer>
+		</dict>
+		<key>/Users/noamross/aa</key>
+		<dict>
+			<key>aa</key>
 			<integer>1</integer>
 		</dict>
 		<key>/Users/noamross/dropbox</key>
 		<dict>
 			<key>drop</key>
+			<integer>4</integer>
+		</dict>
+		<key>/Users/noamross/dropbox-eha</key>
+		<dict>
+			<key>dropboxeha</key>
 			<integer>1</integer>
+		</dict>
+		<key>1CAEDA17-8D19-48BB-99ED-99A398774A0B:ABPerson</key>
+		<dict>
+			<key>olival</key>
+			<integer>2</integer>
 		</dict>
 		<key>E9BF0F8A-B988-497A-9409-173389AE935E:ABPerson</key>
 		<dict>
@@ -360,9 +593,27 @@
 			<key>in</key>
 			<integer>1</integer>
 		</dict>
+		<key>FileOpenWithAction</key>
+		<dict>
+			<key>ope</key>
+			<integer>1</integer>
+			<key>open</key>
+			<integer>4</integer>
+			<key>openw</key>
+			<integer>1</integer>
+			<key>openwi</key>
+			<integer>1</integer>
+			<key>openwith</key>
+			<integer>1</integer>
+		</dict>
 		<key>FileRevealAction</key>
 		<dict>
 			<key>r</key>
+			<integer>1</integer>
+		</dict>
+		<key>FileToTrashAction</key>
+		<dict>
+			<key>tr</key>
 			<integer>1</integer>
 		</dict>
 		<key>QSClipboardStorageCopy0</key>
@@ -416,7 +667,7 @@
 		<key>QSRescanCatalogMessage</key>
 		<dict>
 			<key>res</key>
-			<integer>4</integer>
+			<integer>5</integer>
 			<key>rescan</key>
 			<integer>2</integer>
 		</dict>
@@ -446,6 +697,11 @@
 			<key>newwin</key>
 			<integer>1</integer>
 			<key>newwinow</key>
+			<integer>1</integer>
+		</dict>
+		<key>http://onlinelibrary.wiley.com/doi/10.1002/rrr.3450110109/abstract</key>
+		<dict>
+			<key>olival</key>
 			<integer>1</integer>
 		</dict>
 		<key>http://www.ebay.com/sch/i.html?_from=R40&amp;_trksid=p5197.m570.l1313&amp;_nkw=***&amp;_sacat=See-All-Categories</key>

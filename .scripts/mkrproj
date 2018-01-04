@@ -1,0 +1,49 @@
+#!/bin/bash
+
+# Usage: mkproj [projectname]
+# projectname defaults to name of current directory
+
+template="Version: 1.0
+
+RestoreWorkspace: No
+SaveWorkspace: No
+AlwaysSaveHistory: Yes
+
+EnableCodeIndexing: Yes
+UseSpacesForTab: Yes
+NumSpacesForTab: 2
+Encoding: UTF-8
+
+RnwWeave: knitr
+LaTeX: XeLaTeX
+
+AutoAppendNewline: Yes
+StripTrailingWhitespace: Yes
+
+QuitChildProcessesOnExit: Yes
+"
+
+gtemplate=".Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+"
+
+wd=$(basename "`pwd`")
+
+if [ -z $1 ]; then
+  projectname=$wd
+else
+  projectname=$1
+fi
+
+echo "${template}" > "${projectname}.Rproj"
+if [ ! -e .gitignore ]
+then
+    echo "${gtemplate}" > .gitignore
+fi
+
+
+
+# Open the newly created project in RStudio:
+open "${projectname}.Rproj"

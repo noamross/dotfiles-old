@@ -117,9 +117,62 @@
 			<key>source</key>
 			<string>QSFileSystemObjectSource</string>
 		</dict>
+		<dict>
+			<key>ID</key>
+			<string>C174F538-7DA9-4429-9304-74F727B15BC7</string>
+			<key>children</key>
+			<array/>
+			<key>enabled</key>
+			<true/>
+			<key>name</key>
+			<string>workspace</string>
+			<key>settings</key>
+			<dict>
+				<key>folderDepth</key>
+				<integer>2</integer>
+				<key>parser</key>
+				<string>QSDirectoryParser</string>
+				<key>path</key>
+				<string>~/Dropbox (Personal)/workspace</string>
+			</dict>
+			<key>source</key>
+			<string>QSFileSystemObjectSource</string>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>9CCF1358-AC82-43ED-8115-355D78D7D927</string>
+			<key>children</key>
+			<array/>
+			<key>enabled</key>
+			<true/>
+			<key>name</key>
+			<string>mackup</string>
+			<key>settings</key>
+			<dict>
+				<key>folderDepth</key>
+				<integer>3</integer>
+				<key>parser</key>
+				<string>QSDirectoryParser</string>
+				<key>path</key>
+				<string>~/Dropbox (Personal)/mackup</string>
+			</dict>
+			<key>source</key>
+			<string>QSFileSystemObjectSource</string>
+		</dict>
 	</array>
 	<key>enabledPresets</key>
-	<dict/>
+	<dict>
+		<key>QSPresetBashHistory</key>
+		<false/>
+		<key>QSPresetGoogleChromeBookmarks</key>
+		<false/>
+		<key>QSPresetGoogleChromeHistory</key>
+		<false/>
+		<key>QSPresetGoogleChromeSearchEngines</key>
+		<false/>
+		<key>QSPresetKeychains</key>
+		<false/>
+	</dict>
 	<key>omittedItems</key>
 	<array/>
 </dict>

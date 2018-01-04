@@ -299,6 +299,13 @@
 	</dict>
 	<key>actionIndirects</key>
 	<dict>
+		<key>FileOpenWithAction</key>
+		<array>
+			<string>/Applications/RStudio.app</string>
+			<string>/Applications/Atom.app</string>
+			<string>/Applications/aText.app</string>
+			<string>/Applications/Google Chrome.app</string>
+		</array>
 		<key>QSCommandAddTriggerAction</key>
 		<array>
 			<string>QSHotKeyTrigger</string>

@@ -10,6 +10,10 @@
     showInvisibles: true
   "exception-reporting":
     userId: "ad0f22f3-94d5-4b08-b038-459a81c79c18"
+  minimap:
+    plugins:
+      "git-diff": true
+      "git-diffDecorationsZIndex": 0
   "package-sync":
     createOnChange: true
     forceOverwrite: true

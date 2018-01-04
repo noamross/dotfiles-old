@@ -7,3 +7,8 @@ CXX14=$(CCACHE) g++$(VER)
 FC=$(CCACHE) gfortran$(VER)
 F77=$(CCACHE) gfortran$(VER)
 MAKE=make -j4
+CFLAGS = -I/usr/local/opt/openssl/include
+CXXFLAGS = -I/usr/local/opt/openssl/include -I/usr/local/opt/gettext/include -I/usr/local/opt/llvm/include
+CPPFLAGS = -I/usr/local/opt/openssl/include -I/usr/local/opt/gettext/include -I/usr/local/opt/llvm/include
+LDFLAGS = -L/usr/local/opt/openssl/lib -L/usr/local/opt/gettext/lib -L/usr/local/opt/llvm/lib
+
