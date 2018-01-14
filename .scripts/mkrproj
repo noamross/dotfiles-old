@@ -37,7 +37,12 @@ else
   projectname=$1
 fi
 
-echo "${template}" > "${projectname}.Rproj"
+count=`ls -1 *.Rproj 2>/dev/null | wc -l`
+if [ $count == 0 ]
+then
+  echo "${template}" > "${projectname}.Rproj"
+fi
+
 if [ ! -e .gitignore ]
 then
     echo "${gtemplate}" > .gitignore

@@ -41,9 +41,7 @@
 			<key>settings</key>
 			<dict>
 				<key>folderTypes</key>
-				<array>
-					<string>public.folder</string>
-				</array>
+				<array/>
 				<key>parser</key>
 				<string>QSDirectoryParser</string>
 				<key>path</key>
@@ -63,6 +61,8 @@
 			<string>Projects</string>
 			<key>settings</key>
 			<dict>
+				<key>folderTypes</key>
+				<array/>
 				<key>parser</key>
 				<string>QSDirectoryParser</string>
 				<key>path</key>
@@ -164,13 +164,21 @@
 	<dict>
 		<key>QSPresetBashHistory</key>
 		<false/>
-		<key>QSPresetGoogleChromeBookmarks</key>
+		<key>QSPresetDesktop</key>
 		<false/>
+		<key>QSPresetGoogleChromeBookmarks</key>
+		<true/>
 		<key>QSPresetGoogleChromeHistory</key>
 		<false/>
 		<key>QSPresetGoogleChromeSearchEngines</key>
 		<false/>
 		<key>QSPresetKeychains</key>
+		<false/>
+		<key>QSPresetQSFileTagsPlugIn</key>
+		<false/>
+		<key>QSPresetSpotlightGroup</key>
+		<false/>
+		<key>QSPresetSpotlightSavedSearches</key>
 		<false/>
 	</dict>
 	<key>omittedItems</key>

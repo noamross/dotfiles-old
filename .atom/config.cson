@@ -1,4 +1,7 @@
 "*":
+  Zen:
+    showWordCount: "Right"
+    softWrap: true
   core:
     telemetryConsent: "limited"
     themes: [

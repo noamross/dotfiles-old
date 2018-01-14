@@ -79,9 +79,9 @@
 		<key>FileGetInfoAction</key>
 		<true/>
 		<key>FileGetPathAction</key>
-		<false/>
+		<true/>
 		<key>FileGetPosixPathAction</key>
-		<false/>
+		<true/>
 		<key>FileGetURLAction</key>
 		<false/>
 		<key>FileMakeAliasInAction</key>
@@ -132,6 +132,8 @@
 		<true/>
 		<key>QSABContactShowAction</key>
 		<true/>
+		<key>QSAddFileTagsAction</key>
+		<false/>
 		<key>QSAirPortDisassociate</key>
 		<true/>
 		<key>QSAirPortNetworkNewConnection</key>
@@ -234,11 +236,33 @@
 		<true/>
 		<key>QSPutOnShelfAction</key>
 		<false/>
+		<key>QSRemoveFileTagsAction</key>
+		<false/>
 		<key>QSSearchMenuItemsAction</key>
 		<true/>
+		<key>QSSetFileCommentAction</key>
+		<true/>
+		<key>QSSetFileTagsAction</key>
+		<false/>
 		<key>QSShelfShowAction</key>
 		<true/>
 		<key>QSShellScriptRunWithArgsAction</key>
+		<true/>
+		<key>QSShowFileTagsAction</key>
+		<false/>
+		<key>QSShowTaggedFilesAction</key>
+		<false/>
+		<key>QSSpotlightSearchFilenamesInFolder</key>
+		<true/>
+		<key>QSSpotlightSearchInFolder</key>
+		<true/>
+		<key>QSSpotlightSearchInFolderWithFinder</key>
+		<true/>
+		<key>QSSpotlightStringSearch</key>
+		<true/>
+		<key>QSSpotlightStringSearchInternal</key>
+		<true/>
+		<key>QSSpotlightStringSearchWithFinder</key>
 		<true/>
 		<key>QSTextShowDialogAction</key>
 		<false/>
@@ -299,10 +323,26 @@
 	</dict>
 	<key>actionIndirects</key>
 	<dict>
+		<key>AppOpenFileAction</key>
+		<array>
+			<string>/Users/noamross/Dropbox (EHA)/projects/predict-country-maps</string>
+			<string>/Users/noamross/Dropbox (Personal)/mackup</string>
+		</array>
+		<key>FileCopyToAction</key>
+		<array>
+			<string>/Users/noamross/Dropbox (EHA)/projects/eidith/docs</string>
+			<string>/Users/noamross/Dropbox (EHA)/projects/eidith/inst/images</string>
+		</array>
+		<key>FileMoveToAction</key>
+		<array>
+			<string>/Users/noamross/Dropbox (EHA)/projects/eidith/inst</string>
+			<string>/Users/noamross/Dropbox (EHA)/shared</string>
+			<string>/Users/noamross/Dropbox (Personal)/notebook</string>
+		</array>
 		<key>FileOpenWithAction</key>
 		<array>
-			<string>/Applications/RStudio.app</string>
 			<string>/Applications/Atom.app</string>
+			<string>/Applications/RStudio.app</string>
 			<string>/Applications/aText.app</string>
 			<string>/Applications/Google Chrome.app</string>
 		</array>
@@ -450,6 +490,8 @@
 		<true/>
 		<key>QSABContactShowAction</key>
 		<true/>
+		<key>QSAddFileTagsAction</key>
+		<false/>
 		<key>QSAirPortDisassociate</key>
 		<true/>
 		<key>QSAirPortNetworkNewConnection</key>
@@ -552,11 +594,33 @@
 		<true/>
 		<key>QSPutOnShelfAction</key>
 		<false/>
+		<key>QSRemoveFileTagsAction</key>
+		<false/>
 		<key>QSSearchMenuItemsAction</key>
 		<true/>
+		<key>QSSetFileCommentAction</key>
+		<true/>
+		<key>QSSetFileTagsAction</key>
+		<false/>
 		<key>QSShelfShowAction</key>
 		<true/>
 		<key>QSShellScriptRunWithArgsAction</key>
+		<true/>
+		<key>QSShowFileTagsAction</key>
+		<false/>
+		<key>QSShowTaggedFilesAction</key>
+		<false/>
+		<key>QSSpotlightSearchFilenamesInFolder</key>
+		<true/>
+		<key>QSSpotlightSearchInFolder</key>
+		<true/>
+		<key>QSSpotlightSearchInFolderWithFinder</key>
+		<true/>
+		<key>QSSpotlightStringSearch</key>
+		<true/>
+		<key>QSSpotlightStringSearchInternal</key>
+		<true/>
+		<key>QSSpotlightStringSearchWithFinder</key>
 		<true/>
 		<key>QSTextShowDialogAction</key>
 		<false/>
@@ -747,6 +811,8 @@
 		<real>0.0</real>
 		<key>QSABContactShowAction</key>
 		<real>3</real>
+		<key>QSAddFileTagsAction</key>
+		<real>0.0</real>
 		<key>QSAirPortDisassociate</key>
 		<real>1</real>
 		<key>QSAirPortNetworkNewConnection</key>
@@ -849,11 +915,33 @@
 		<real>0.0</real>
 		<key>QSPutOnShelfAction</key>
 		<real>0.0</real>
+		<key>QSRemoveFileTagsAction</key>
+		<real>0.0</real>
 		<key>QSSearchMenuItemsAction</key>
+		<real>0.0</real>
+		<key>QSSetFileCommentAction</key>
+		<real>0.0</real>
+		<key>QSSetFileTagsAction</key>
 		<real>0.0</real>
 		<key>QSShelfShowAction</key>
 		<real>0.0</real>
 		<key>QSShellScriptRunWithArgsAction</key>
+		<real>0.0</real>
+		<key>QSShowFileTagsAction</key>
+		<real>0.0</real>
+		<key>QSShowTaggedFilesAction</key>
+		<real>3</real>
+		<key>QSSpotlightSearchFilenamesInFolder</key>
+		<real>0.0</real>
+		<key>QSSpotlightSearchInFolder</key>
+		<real>0.0</real>
+		<key>QSSpotlightSearchInFolderWithFinder</key>
+		<real>0.0</real>
+		<key>QSSpotlightStringSearch</key>
+		<real>0.0</real>
+		<key>QSSpotlightStringSearchInternal</key>
+		<real>0.0</real>
+		<key>QSSpotlightStringSearchWithFinder</key>
 		<real>0.0</real>
 		<key>QSTextShowDialogAction</key>
 		<real>0.0</real>
@@ -929,6 +1017,7 @@
 		<string>QSABContactShowAction</string>
 		<string>QSUIElementPressAction</string>
 		<string>ActivateWindow</string>
+		<string>QSShowTaggedFilesAction</string>
 		<string>FileOpenAction</string>
 		<string>QSCommandExecuteAfterDelayAction</string>
 		<string>URLOpenAction</string>
@@ -1048,6 +1137,17 @@
 		<string>QSUIElementDoActionAction</string>
 		<string>RaiseWindow</string>
 		<string>QSSearchMenuItemsAction</string>
+		<string>QSSetFileTagsAction</string>
+		<string>QSShowFileTagsAction</string>
+		<string>QSSpotlightSearchFilenamesInFolder</string>
+		<string>QSAddFileTagsAction</string>
+		<string>QSSpotlightStringSearchInternal</string>
+		<string>QSSetFileCommentAction</string>
+		<string>QSSpotlightSearchInFolder</string>
+		<string>QSSpotlightStringSearchWithFinder</string>
+		<string>QSSpotlightStringSearch</string>
+		<string>QSSpotlightSearchInFolderWithFinder</string>
+		<string>QSRemoveFileTagsAction</string>
 		<string>QSCatalogAddEntryAction</string>
 		<string>QSObjectAssignMnemonic</string>
 		<string>PasteboardPasteActionAsPlainText</string>

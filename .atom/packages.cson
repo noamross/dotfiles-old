@@ -8,4 +8,5 @@ packages: [
   "sort-lines"
   "split-diff"
   "tablr"
+  "Zen"
 ]

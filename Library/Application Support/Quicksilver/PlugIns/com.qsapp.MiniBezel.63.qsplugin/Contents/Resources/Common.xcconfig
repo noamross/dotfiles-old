@@ -1,0 +1,50 @@
+#include "Developer.xcconfig"
+
+VALID_ARCHS = i386 x86_64
+
+ARCHS = $(ARCHS_STANDARD_32_64_BIT)
+
+SDKROOT = macosx
+
+SYMROOT = $(QS_BUILD_ROOT)/build
+
+MACOSX_DEPLOYMENT_TARGET = 10.7
+PREBINDING = NO
+
+INFOPLIST_PREPROCESS = YES
+
+FRAMEWORK_SEARCH_PATHS = /System/Library/PrivateFrameworks $(BUILT_PRODUCTS_DIR)
+
+GCC_C_LANGUAGE_STANDARD = c99
+
+GCC_ENABLE_OBJC_EXCEPTIONS = YES
+
+GCC_FAST_OBJC_DISPATCH = YES
+
+WARNING_CFLAGS = -Wall -Wno-parentheses -Wunused-function -Wextra -Wno-unused-parameter 
+
+QS_APP_CONTENTS_FOLDER = $(CONFIGURATION_BUILD_DIR)/Quicksilver.app/Contents
+QS_BUILD_ROOT = /tmp/QS
+
+GCC_PRECOMPILE_PREFIX_HEADER = YES
+GCC_PREFIX_HEADER = $(QS_BUILD_ROOT)/Configuration/Quicksilver.pch
+
+GCC_WARN_ABOUT_RETURN_TYPE = YES
+GCC_WARN_UNUSED_VARIABLE = YES
+
+GCC_VERSION = com.apple.compilers.llvm.clang.1_0
+
+ALWAYS_SEARCH_USER_PATHS = NO
+
+PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES  // If you get lotsa "Duplicate interface definition" errors from "Core Support" when you are building with Clang, then edit the
+// "Core Support" target build settings and override the "PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR" setting from the
+// Build Settings dialog and set it to NO (the name of the build settings should turn bold indicating its overiding something).
+
+
+// Xcode 4.3 recommendations
+CLANG_WARN_CONSTANT_CONVERSION = YES
+CLANG_WARN_ENUM_CONVERSION = YES
+CLANG_WARN_INT_CONVERSION = YES
+CLANG_WARN__DUPLICATE_METHOD_MATCH = YES
+GCC_WARN_UNINITIALIZED_AUTOS = YES
+COMBINE_HIDPI_IMAGES = YES

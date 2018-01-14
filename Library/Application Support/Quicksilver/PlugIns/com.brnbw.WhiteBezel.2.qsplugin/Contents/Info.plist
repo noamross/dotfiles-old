@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildMachineOSBuild</key>
+	<string>12D78</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleDisplayName</key>
+	<string>White Bezel Interface</string>
+	<key>CFBundleExecutable</key>
+	<string>WhiteBezel</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.brnbw.WhiteBezel</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>White Bezel Interface</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>2</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string>4H512</string>
+	<key>DTPlatformVersion</key>
+	<string>GM</string>
+	<key>DTSDKBuild</key>
+	<string>12D75</string>
+	<key>DTSDKName</key>
+	<string>macosx10.8</string>
+	<key>DTXcode</key>
+	<string>0461</string>
+	<key>DTXcodeBuild</key>
+	<string>4H512</string>
+	<key>QSPlugIn</key>
+	<dict>
+		<key>author</key>
+		<string>BRNBW / Mikkel Malmberg</string>
+		<key>categories</key>
+		<array>
+			<string>Interfaces</string>
+		</array>
+		<key>description</key>
+		<string>A whiter version of the classic Bezel Interface</string>
+	</dict>
+	<key>QSRegistration</key>
+	<dict>
+		<key>QSCommandInterfaceControllers</key>
+		<dict>
+			<key>White Bezel</key>
+			<string>BBWhiteBezelInterface</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

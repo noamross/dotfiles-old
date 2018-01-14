@@ -17,6 +17,14 @@
 		<array>
 			<string>/Users/noamross/aa</string>
 		</array>
+		<key>acti</key>
+		<array>
+			<string>/Applications/Utilities/Activity Monitor.app</string>
+		</array>
+		<key>appli</key>
+		<array>
+			<string>/Applications</string>
+		</array>
 		<key>application</key>
 		<array>
 			<string>/Users/noamross/Applications</string>
@@ -45,6 +53,10 @@
 		<array>
 			<string>/Applications/BetterTouchTool.app</string>
 		</array>
+		<key>bit</key>
+		<array>
+			<string>http://bit.ly/predict-r</string>
+		</array>
 		<key>blogpic</key>
 		<array>
 			<string>/Users/noamross/Dropbox (Personal)/Public/blogstuff/blogpic.jpg</string>
@@ -56,6 +68,14 @@
 		<key>boots</key>
 		<array>
 			<string>/Users/noamross/Dropbox (Personal)/mackup/.scripts/bootstrap_rpkgs</string>
+		</array>
+		<key>catalog</key>
+		<array>
+			<string>QSRescanCatalogMessage</string>
+		</array>
+		<key>ch</key>
+		<array>
+			<string>/Applications/Google Chrome.app</string>
 		</array>
 		<key>chrom</key>
 		<array>
@@ -86,6 +106,10 @@
 		<array>
 			<string>/Applications/Contacts.app</string>
 		</array>
+		<key>countryspe</key>
+		<array>
+			<string>/Users/noamross/Dropbox (Personal)/workspace/country-specific-pdf-A4</string>
+		</array>
 		<key>datetim</key>
 		<array>
 			<string>/System/Library/PreferencePanes/DateAndTime.prefPane</string>
@@ -98,6 +122,14 @@
 		<array>
 			<string>/System/Library/PreferencePanes/Displays.prefPane</string>
 		</array>
+		<key>displ</key>
+		<array>
+			<string>/System/Library/PreferencePanes/Displays.prefPane</string>
+		</array>
+		<key>drlo</key>
+		<array>
+			<string>http://scholar.google.com/scholar?q=Hydrologic+variability%2C+water+chemistry%2C+and+phytoplankton+biomass+in+a+large+floodplain+of+the+Sacramento+River%2C+CA%2C+US</string>
+		</array>
 		<key>drop</key>
 		<array>
 			<string>/Users/noamross/dropbox</string>
@@ -105,6 +137,19 @@
 		<key>dropboxeha</key>
 		<array>
 			<string>/Users/noamross/dropbox-eha</string>
+		</array>
+		<key>eid</key>
+		<array>
+			<string>/Users/noamross/Library/Application Support/eidith</string>
+		</array>
+		<key>eidith</key>
+		<array>
+			<string>/Users/noamross/Library/Application Support/eidith</string>
+			<string>/Users/noamross/Dropbox (EHA)/projects/eidith</string>
+		</array>
+		<key>ellen</key>
+		<array>
+			<string>0287C4C7-F2E3-4130-AC8D-F6194236A1C6:ABPerson</string>
 		</array>
 		<key>google</key>
 		<array>
@@ -122,13 +167,47 @@
 		<array>
 			<string>/Applications/iTerm.app</string>
 		</array>
+		<key>jaber</key>
+		<array>
+			<string>0376C824-6BAA-4E1F-BE1B-E44CEEC25B20:ABPerson</string>
+		</array>
+		<key>keep</key>
+		<array>
+			<string>/Users/noamross/Applications/Chrome Apps.localized/Default hmjkmjkepdijhoojdojkdfohbdgmmhki.app</string>
+			<string>/Users/noamross/Library/Application Support/Google/Chrome/Default/Web Applications/_crx_hmjkmjkepdijhoojdojkdfohbdgmmhki/Default hmjkmjkepdijhoojdojkdfohbdgmmhki.app</string>
+		</array>
 		<key>languageregio</key>
 		<array>
 			<string>/System/Library/PreferencePanes/Localization.prefPane</string>
 		</array>
+		<key>lates</key>
+		<array>
+			<string>QSMostRecentDownloadProxy</string>
+		</array>
+		<key>latest</key>
+		<array>
+			<string>QSMostRecentDownloadProxy</string>
+		</array>
+		<key>latestd</key>
+		<array>
+			<string>QSMostRecentDownloadProxy</string>
+		</array>
+		<key>latestdown</key>
+		<array>
+			<string>QSMostRecentDownloadProxy</string>
+			<string>QSID:QSPresetCommandHistory:Show contents for Latest Download</string>
+		</array>
+		<key>librar</key>
+		<array>
+			<string>/System/Library</string>
+		</array>
 		<key>library</key>
 		<array>
 			<string>/System/Library/CoreServices/Photo Library Migration Utility.app</string>
+		</array>
+		<key>log</key>
+		<array>
+			<string>/Users/noamross/Dropbox (Personal)/mackup/Library/Application Support/Quicksilver/PlugIns/com.blacktree.Quicksilver.QSExtraScriptsPlugIn.92.qsplugin/Contents/Resources/ExtraScripts/Processes/Logout</string>
 		</array>
 		<key>mac</key>
 		<array>
@@ -139,6 +218,10 @@
 			<string>/</string>
 		</array>
 		<key>mack</key>
+		<array>
+			<string>/Users/noamross/Dropbox (Personal)/mackup</string>
+		</array>
+		<key>mackup</key>
 		<array>
 			<string>/Users/noamross/Dropbox (Personal)/mackup</string>
 		</array>
@@ -158,7 +241,15 @@
 		<array>
 			<string>/Users/noamross/Dropbox (Personal)/mackup/.scripts/NewChromeWindow.qscommand</string>
 		</array>
+		<key>noam</key>
+		<array>
+			<string>/Users/noamross</string>
+		</array>
 		<key>noamr</key>
+		<array>
+			<string>/Users/noamross</string>
+		</array>
+		<key>noamro</key>
 		<array>
 			<string>/Users/noamross</string>
 		</array>
@@ -170,6 +261,10 @@
 		<array>
 			<string>/System/Library/PreferencePanes/Notifications.prefPane</string>
 		</array>
+		<key>officedire</key>
+		<array>
+			<string>http://onlinelibrary.wiley.com/doi/10.1002/(SICI)1099-1646(199901/06)15:1/3%3C125::AID-RRR523%3E3.0.CO;2-E/abstract</string>
+		</array>
 		<key>olival</key>
 		<array>
 			<string>1CAEDA17-8D19-48BB-99ED-99A398774A0B:ABPerson</string>
@@ -179,17 +274,52 @@
 		<array>
 			<string>/Applications/Photos.app</string>
 		</array>
+		<key>predict</key>
+		<array>
+			<string>/Users/noamross/Dropbox (EHA)/projects/predict-country-maps</string>
+		</array>
+		<key>predict-r</key>
+		<array>
+			<string>http://bit.ly/predict-r</string>
+		</array>
+		<key>prox</key>
+		<array>
+			<string>QSPresetProxies</string>
+		</array>
+		<key>proxy</key>
+		<array>
+			<string>QSPresetProxies</string>
+		</array>
 		<key>quicksil</key>
 		<array>
 			<string>/Applications/Quicksilver.app</string>
 		</array>
+		<key>rec</key>
+		<array>
+			<string>/Users/noamross/Library/Saved Searches/Recent Workspace.savedSearch</string>
+		</array>
+		<key>recentwo</key>
+		<array>
+			<string>/Users/noamross/Library/Saved Searches/Recent Workspace.savedSearch</string>
+			<string>QSID:QSPresetCommandHistory:Show Recent Workspace.savedSearch (Catalog) </string>
+		</array>
+		<key>recentwork</key>
+		<array>
+			<string>/Users/noamross/Library/Saved Searches/Recent Workspace.savedSearch</string>
+			<string>508E6CB8-E285-4618-898E-7A51956EA978</string>
+		</array>
 		<key>res</key>
 		<array>
 			<string>QSRescanCatalogMessage</string>
+			<string>/Users/noamross/Dropbox (Personal)/mackup/Library/Application Support/Quicksilver/PlugIns/com.blacktree.Quicksilver.QSExtraScriptsPlugIn.92.qsplugin/Contents/Resources/ExtraScripts/System/Restart</string>
 		</array>
 		<key>rescan</key>
 		<array>
 			<string>QSRescanCatalogMessage</string>
+		</array>
+		<key>rest</key>
+		<array>
+			<string>/Users/noamross/Dropbox (Personal)/mackup/Library/Application Support/Quicksilver/PlugIns/com.blacktree.Quicksilver.QSExtraScriptsPlugIn.92.qsplugin/Contents/Resources/ExtraScripts/System/Restart</string>
 		</array>
 		<key>resta</key>
 		<array>
@@ -215,6 +345,14 @@
 		<array>
 			<string>/Applications/RStudio.app</string>
 		</array>
+		<key>sa</key>
+		<array>
+			<string>/Applications/Safari.app</string>
+		</array>
+		<key>saved</key>
+		<array>
+			<string>/Users/noamross/Library/Saved Searches</string>
+		</array>
 		<key>script</key>
 		<array>
 			<string>/Users/noamross/.scripts</string>
@@ -231,9 +369,17 @@
 		<array>
 			<string>[Shelf]:General</string>
 		</array>
+		<key>shu</key>
+		<array>
+			<string>/Users/noamross/Dropbox (Personal)/mackup/Library/Application Support/Quicksilver/PlugIns/com.blacktree.Quicksilver.QSExtraScriptsPlugIn.92.qsplugin/Contents/Resources/ExtraScripts/System/Shut Down</string>
+		</array>
 		<key>sla</key>
 		<array>
 			<string>/Applications/Slack.app</string>
+		</array>
+		<key>smartfol</key>
+		<array>
+			<string>QSPresetSpotlightSavedSearches</string>
 		</array>
 		<key>store</key>
 		<array>
@@ -242,6 +388,14 @@
 		<key>sysmpre</key>
 		<array>
 			<string>QSPresetLibraryPreferencePanes</string>
+		</array>
+		<key>syspre</key>
+		<array>
+			<string>/Applications/System Preferences.app</string>
+		</array>
+		<key>syst</key>
+		<array>
+			<string>/Applications/System Preferences.app</string>
 		</array>
 		<key>systempr</key>
 		<array>
@@ -267,9 +421,25 @@
 		<array>
 			<string>/System/Library/PreferencePanes/Accounts.prefPane</string>
 		</array>
+		<key>wo</key>
+		<array>
+			<string>/Users/noamross/Dropbox (Personal)/workspace</string>
+		</array>
 		<key>work</key>
 		<array>
 			<string>/Users/noamross/Dropbox (Personal)/workspace</string>
+		</array>
+		<key>works</key>
+		<array>
+			<string>508E6CB8-E285-4618-898E-7A51956EA978</string>
+		</array>
+		<key>worksp</key>
+		<array>
+			<string>508E6CB8-E285-4618-898E-7A51956EA978</string>
+		</array>
+		<key>workspace</key>
+		<array>
+			<string>508E6CB8-E285-4618-898E-7A51956EA978</string>
 		</array>
 	</dict>
 	<key>implied</key>
@@ -277,9 +447,14 @@
 		<key>/</key>
 		<dict>
 			<key>mac</key>
-			<integer>1</integer>
-			<key>macin</key>
 			<integer>2</integer>
+			<key>macin</key>
+			<integer>3</integer>
+		</dict>
+		<key>/Applications</key>
+		<dict>
+			<key>appli</key>
+			<integer>1</integer>
 		</dict>
 		<key>/Applications/App Store.app</key>
 		<dict>
@@ -291,7 +466,7 @@
 			<key>ato</key>
 			<integer>1</integer>
 			<key>atom</key>
-			<integer>1</integer>
+			<integer>4</integer>
 		</dict>
 		<key>/Applications/BetterTouchTool.app</key>
 		<dict>
@@ -313,7 +488,7 @@
 		<key>/Applications/Google Chrome.app</key>
 		<dict>
 			<key>ch</key>
-			<integer>1</integer>
+			<integer>2</integer>
 			<key>chrom</key>
 			<integer>3</integer>
 		</dict>
@@ -337,7 +512,7 @@
 		<key>/Applications/RStudio.app</key>
 		<dict>
 			<key>rs</key>
-			<integer>5</integer>
+			<integer>6</integer>
 			<key>rst</key>
 			<integer>1</integer>
 			<key>rstu</key>
@@ -349,6 +524,8 @@
 		<dict>
 			<key>s</key>
 			<integer>2</integer>
+			<key>sa</key>
+			<integer>1</integer>
 			<key>safari</key>
 			<integer>2</integer>
 		</dict>
@@ -359,9 +536,18 @@
 		</dict>
 		<key>/Applications/System Preferences.app</key>
 		<dict>
+			<key>syspre</key>
+			<integer>1</integer>
+			<key>syst</key>
+			<integer>1</integer>
 			<key>systempr</key>
 			<integer>1</integer>
 			<key>systempre</key>
+			<integer>1</integer>
+		</dict>
+		<key>/Applications/Utilities/Activity Monitor.app</key>
+		<dict>
+			<key>acti</key>
 			<integer>1</integer>
 		</dict>
 		<key>/Applications/Utilities/Audio MIDI Setup.app</key>
@@ -374,7 +560,7 @@
 			<key>at</key>
 			<integer>2</integer>
 			<key>ate</key>
-			<integer>3</integer>
+			<integer>4</integer>
 			<key>atex</key>
 			<integer>1</integer>
 		</dict>
@@ -395,11 +581,41 @@
 		<key>/Library</key>
 		<dict>
 			<key>l</key>
-			<integer>2</integer>
+			<integer>3</integer>
+		</dict>
+		<key>/Library/Frameworks</key>
+		<dict>
+			<key>fa</key>
+			<integer>1</integer>
+		</dict>
+		<key>/Library/Frameworks/R.framework</key>
+		<dict>
+			<key>r</key>
+			<integer>1</integer>
+		</dict>
+		<key>/Library/Frameworks/R.framework/Versions</key>
+		<dict>
+			<key>v</key>
+			<integer>1</integer>
+		</dict>
+		<key>/Library/Frameworks/R.framework/Versions/3.4/Resources</key>
+		<dict>
+			<key>res</key>
+			<integer>1</integer>
+		</dict>
+		<key>/Library/Frameworks/R.framework/Versions/3.4/Resources/library</key>
+		<dict>
+			<key>lib</key>
+			<integer>1</integer>
 		</dict>
 		<key>/Library/Preferences</key>
 		<dict>
 			<key>pref</key>
+			<integer>1</integer>
+		</dict>
+		<key>/System/Library</key>
+		<dict>
+			<key>librar</key>
 			<integer>1</integer>
 		</dict>
 		<key>/System/Library/CoreServices/Photo Library Migration Utility.app</key>
@@ -427,6 +643,8 @@
 		<key>/System/Library/PreferencePanes/Displays.prefPane</key>
 		<dict>
 			<key>disp</key>
+			<integer>3</integer>
+			<key>displ</key>
 			<integer>1</integer>
 		</dict>
 		<key>/System/Library/PreferencePanes/InternetAccounts.prefPane</key>
@@ -458,8 +676,12 @@
 		</dict>
 		<key>/Users/noamross</key>
 		<dict>
+			<key>noam</key>
+			<integer>1</integer>
 			<key>noamr</key>
 			<integer>1</integer>
+			<key>noamro</key>
+			<integer>2</integer>
 		</dict>
 		<key>/Users/noamross/.scripts</key>
 		<dict>
@@ -473,9 +695,41 @@
 			<key>application</key>
 			<integer>1</integer>
 		</dict>
+		<key>/Users/noamross/Applications/Chrome Apps.localized/Default hmjkmjkepdijhoojdojkdfohbdgmmhki.app</key>
+		<dict>
+			<key>keep</key>
+			<integer>1</integer>
+		</dict>
 		<key>/Users/noamross/Dropbox (EHA)/projects/08_trangucci/08_trangucci.Rproj</key>
 		<dict>
 			<key>08_tr</key>
+			<integer>1</integer>
+		</dict>
+		<key>/Users/noamross/Dropbox (EHA)/projects/eidith</key>
+		<dict>
+			<key>eidi</key>
+			<integer>1</integer>
+			<key>eidith</key>
+			<integer>2</integer>
+		</dict>
+		<key>/Users/noamross/Dropbox (EHA)/projects/eidith/docs</key>
+		<dict>
+			<key>do</key>
+			<integer>1</integer>
+		</dict>
+		<key>/Users/noamross/Dropbox (EHA)/projects/eidith/inst</key>
+		<dict>
+			<key>in</key>
+			<integer>2</integer>
+		</dict>
+		<key>/Users/noamross/Dropbox (EHA)/projects/predict-country-maps</key>
+		<dict>
+			<key>predict</key>
+			<integer>1</integer>
+		</dict>
+		<key>/Users/noamross/Dropbox (EHA)/shared</key>
+		<dict>
+			<key>sh</key>
 			<integer>1</integer>
 		</dict>
 		<key>/Users/noamross/Dropbox (Personal)/Camera Uploads</key>
@@ -516,7 +770,9 @@
 		<key>/Users/noamross/Dropbox (Personal)/mackup</key>
 		<dict>
 			<key>mack</key>
-			<integer>1</integer>
+			<integer>4</integer>
+			<key>mackup</key>
+			<integer>2</integer>
 		</dict>
 		<key>/Users/noamross/Dropbox (Personal)/mackup/.Rprofile</key>
 		<dict>
@@ -544,23 +800,95 @@
 			<key>boots</key>
 			<integer>1</integer>
 		</dict>
+		<key>/Users/noamross/Dropbox (Personal)/mackup/Library/Application Support/Quicksilver/PlugIns/com.blacktree.Quicksilver.QSExtraScriptsPlugIn.92.qsplugin/Contents/Resources/ExtraScripts/Processes/Logout</key>
+		<dict>
+			<key>log</key>
+			<integer>1</integer>
+		</dict>
 		<key>/Users/noamross/Dropbox (Personal)/mackup/Library/Application Support/Quicksilver/PlugIns/com.blacktree.Quicksilver.QSExtraScriptsPlugIn.92.qsplugin/Contents/Resources/ExtraScripts/System/Restart</key>
 		<dict>
+			<key>res</key>
+			<integer>2</integer>
+			<key>rest</key>
+			<integer>2</integer>
 			<key>resta</key>
 			<integer>1</integer>
 			<key>restar</key>
 			<integer>1</integer>
 		</dict>
+		<key>/Users/noamross/Dropbox (Personal)/mackup/Library/Application Support/Quicksilver/PlugIns/com.blacktree.Quicksilver.QSExtraScriptsPlugIn.92.qsplugin/Contents/Resources/ExtraScripts/System/Shut Down</key>
+		<dict>
+			<key>shu</key>
+			<integer>3</integer>
+		</dict>
+		<key>/Users/noamross/Dropbox (Personal)/notebook</key>
+		<dict>
+			<key>note</key>
+			<integer>2</integer>
+		</dict>
 		<key>/Users/noamross/Dropbox (Personal)/workspace</key>
 		<dict>
 			<key>wo</key>
-			<integer>1</integer>
-			<key>work</key>
 			<integer>2</integer>
+			<key>work</key>
+			<integer>8</integer>
+		</dict>
+		<key>/Users/noamross/Dropbox (Personal)/workspace/country-specific-pdf-A4</key>
+		<dict>
+			<key>countryspe</key>
+			<integer>1</integer>
+		</dict>
+		<key>/Users/noamross/Dropbox (Personal)/workspace/favicon.png</key>
+		<dict>
+			<key>fa</key>
+			<integer>1</integer>
+		</dict>
+		<key>/Users/noamross/Dropbox (Personal)/workspace/official_svm_logo.gif</key>
+		<dict>
+			<key>offi</key>
+			<integer>1</integer>
 		</dict>
 		<key>/Users/noamross/Google Drive</key>
 		<dict>
 			<key>google</key>
+			<integer>1</integer>
+		</dict>
+		<key>/Users/noamross/Library</key>
+		<dict>
+			<key>lib</key>
+			<integer>1</integer>
+		</dict>
+		<key>/Users/noamross/Library/Application Support</key>
+		<dict>
+			<key>app</key>
+			<integer>1</integer>
+		</dict>
+		<key>/Users/noamross/Library/Application Support/Google/Chrome/Default/Web Applications/_crx_hmjkmjkepdijhoojdojkdfohbdgmmhki/Default hmjkmjkepdijhoojdojkdfohbdgmmhki.app</key>
+		<dict>
+			<key>keep</key>
+			<integer>1</integer>
+		</dict>
+		<key>/Users/noamross/Library/Application Support/eidith</key>
+		<dict>
+			<key>ei</key>
+			<integer>1</integer>
+			<key>eid</key>
+			<integer>1</integer>
+			<key>eidith</key>
+			<integer>2</integer>
+		</dict>
+		<key>/Users/noamross/Library/Saved Searches</key>
+		<dict>
+			<key>saved</key>
+			<integer>1</integer>
+		</dict>
+		<key>/Users/noamross/Library/Saved Searches/Recent Workspace.savedSearch</key>
+		<dict>
+			<key>rec</key>
+			<integer>1</integer>
+			<key>recentwo</key>
+			<integer>3</integer>
+			<key>recentwork</key>
 			<integer>1</integer>
 		</dict>
 		<key>/Users/noamross/aa</key>
@@ -571,16 +899,42 @@
 		<key>/Users/noamross/dropbox</key>
 		<dict>
 			<key>drop</key>
-			<integer>4</integer>
+			<integer>6</integer>
 		</dict>
 		<key>/Users/noamross/dropbox-eha</key>
 		<dict>
 			<key>dropboxeha</key>
 			<integer>1</integer>
 		</dict>
+		<key>0287C4C7-F2E3-4130-AC8D-F6194236A1C6:ABPerson</key>
+		<dict>
+			<key>ellen</key>
+			<integer>1</integer>
+		</dict>
+		<key>0376C824-6BAA-4E1F-BE1B-E44CEEC25B20:ABPerson</key>
+		<dict>
+			<key>jaber</key>
+			<integer>1</integer>
+		</dict>
 		<key>1CAEDA17-8D19-48BB-99ED-99A398774A0B:ABPerson</key>
 		<dict>
 			<key>olival</key>
+			<integer>3</integer>
+		</dict>
+		<key>508E6CB8-E285-4618-898E-7A51956EA978</key>
+		<dict>
+			<key>recentwork</key>
+			<integer>1</integer>
+			<key>works</key>
+			<integer>1</integer>
+			<key>worksp</key>
+			<integer>1</integer>
+			<key>workspace</key>
+			<integer>2</integer>
+		</dict>
+		<key>AppOpenFileAction</key>
+		<dict>
+			<key>open</key>
 			<integer>2</integer>
 		</dict>
 		<key>E9BF0F8A-B988-497A-9409-173389AE935E:ABPerson</key>
@@ -588,17 +942,34 @@
 			<key>noamross</key>
 			<integer>2</integer>
 		</dict>
+		<key>FileCopyToAction</key>
+		<dict>
+			<key>cop</key>
+			<integer>2</integer>
+		</dict>
 		<key>FileGetInfoAction</key>
 		<dict>
 			<key>in</key>
 			<integer>1</integer>
 		</dict>
+		<key>FileGetPosixPathAction</key>
+		<dict>
+			<key>get</key>
+			<integer>1</integer>
+		</dict>
+		<key>FileMoveToAction</key>
+		<dict>
+			<key>move</key>
+			<integer>3</integer>
+		</dict>
 		<key>FileOpenWithAction</key>
 		<dict>
+			<key>op</key>
+			<integer>1</integer>
 			<key>ope</key>
 			<integer>1</integer>
 			<key>open</key>
-			<integer>4</integer>
+			<integer>7</integer>
 			<key>openw</key>
 			<integer>1</integer>
 			<key>openwi</key>
@@ -614,6 +985,11 @@
 		<key>FileToTrashAction</key>
 		<dict>
 			<key>tr</key>
+			<integer>3</integer>
+		</dict>
+		<key>PasteboardCopyAction</key>
+		<dict>
+			<key>cop</key>
 			<integer>1</integer>
 		</dict>
 		<key>QSClipboardStorageCopy0</key>
@@ -645,9 +1021,41 @@
 			<key>ke</key>
 			<integer>2</integer>
 		</dict>
+		<key>QSID:QSPresetCommandHistory:Show Recent Workspace.savedSearch (Catalog) </key>
+		<dict>
+			<key>recentwo</key>
+			<integer>1</integer>
+		</dict>
+		<key>QSID:QSPresetCommandHistory:Show contents for Latest Download</key>
+		<dict>
+			<key>latestdown</key>
+			<integer>1</integer>
+		</dict>
+		<key>QSLargeTypeAction</key>
+		<dict>
+			<key>l</key>
+			<integer>2</integer>
+			<key>la</key>
+			<integer>2</integer>
+			<key>lar</key>
+			<integer>3</integer>
+		</dict>
+		<key>QSMostRecentDownloadProxy</key>
+		<dict>
+			<key>lates</key>
+			<integer>1</integer>
+			<key>latest</key>
+			<integer>2</integer>
+			<key>latestd</key>
+			<integer>1</integer>
+			<key>latestdown</key>
+			<integer>6</integer>
+		</dict>
 		<key>QSObjectShowMenu</key>
 		<dict>
 			<key>menu</key>
+			<integer>1</integer>
+			<key>s</key>
 			<integer>1</integer>
 			<key>showmenu</key>
 			<integer>1</integer>
@@ -664,10 +1072,24 @@
 			<key>sysmpre</key>
 			<integer>1</integer>
 		</dict>
+		<key>QSPresetProxies</key>
+		<dict>
+			<key>prox</key>
+			<integer>2</integer>
+			<key>proxy</key>
+			<integer>2</integer>
+		</dict>
+		<key>QSPresetSpotlightSavedSearches</key>
+		<dict>
+			<key>smartfol</key>
+			<integer>1</integer>
+		</dict>
 		<key>QSRescanCatalogMessage</key>
 		<dict>
+			<key>catalog</key>
+			<integer>1</integer>
 			<key>res</key>
-			<integer>5</integer>
+			<integer>6</integer>
 			<key>rescan</key>
 			<integer>2</integer>
 		</dict>
@@ -677,6 +1099,21 @@
 			<integer>1</integer>
 			<key>show</key>
 			<integer>5</integer>
+		</dict>
+		<key>QSSpotlightSearchFilenamesInFolder</key>
+		<dict>
+			<key>spotligt</key>
+			<integer>1</integer>
+		</dict>
+		<key>QSSpotlightSearchInFolder</key>
+		<dict>
+			<key>spotl</key>
+			<integer>1</integer>
+		</dict>
+		<key>QSSpotlightStringSearchInternal</key>
+		<dict>
+			<key>spo</key>
+			<integer>1</integer>
 		</dict>
 		<key>[Shelf]:General</key>
 		<dict>
@@ -699,9 +1136,26 @@
 			<key>newwinow</key>
 			<integer>1</integer>
 		</dict>
+		<key>http://bit.ly/predict-r</key>
+		<dict>
+			<key>bit</key>
+			<integer>1</integer>
+			<key>predict-r</key>
+			<integer>1</integer>
+		</dict>
+		<key>http://onlinelibrary.wiley.com/doi/10.1002/(SICI)1099-1646(199901/06)15:1/3%3C125::AID-RRR523%3E3.0.CO;2-E/abstract</key>
+		<dict>
+			<key>officedire</key>
+			<integer>2</integer>
+		</dict>
 		<key>http://onlinelibrary.wiley.com/doi/10.1002/rrr.3450110109/abstract</key>
 		<dict>
 			<key>olival</key>
+			<integer>1</integer>
+		</dict>
+		<key>http://scholar.google.com/scholar?q=Hydrologic+variability%2C+water+chemistry%2C+and+phytoplankton+biomass+in+a+large+floodplain+of+the+Sacramento+River%2C+CA%2C+US</key>
+		<dict>
+			<key>drlo</key>
 			<integer>1</integer>
 		</dict>
 		<key>http://www.ebay.com/sch/i.html?_from=R40&amp;_trksid=p5197.m570.l1313&amp;_nkw=***&amp;_sacat=See-All-Categories</key>

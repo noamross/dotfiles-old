@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildMachineOSBuild</key>
+	<string>14A389</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleDisplayName</key>
+	<string>Window Interface</string>
+	<key>CFBundleExecutable</key>
+	<string>Window Interface</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.blacktree.Quicksilver.QSWindowInterfacePlugIn</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Window Interface</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.1.0</string>
+	<key>CFBundleVersion</key>
+	<string>AE</string>
+	<key>DTCompiler</key>
+	<string>com.apple.compilers.llvm.clang.1_0</string>
+	<key>DTPlatformBuild</key>
+	<string>6A1052d</string>
+	<key>DTPlatformVersion</key>
+	<string>GM</string>
+	<key>DTSDKBuild</key>
+	<string>14A382</string>
+	<key>DTSDKName</key>
+	<string>macosx10.10</string>
+	<key>DTXcode</key>
+	<string>0610</string>
+	<key>DTXcodeBuild</key>
+	<string>6A1052d</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright © 2004, Blacktree, Inc.</string>
+	<key>QSModulePreview</key>
+	<string>BezelInterfacePreview</string>
+	<key>QSPlugIn</key>
+	<dict>
+		<key>author</key>
+		<string>Blacktree, Inc.</string>
+		<key>description</key>
+		<string>Provides a simple window interface</string>
+		<key>webIcon</key>
+		<string></string>
+	</dict>
+	<key>QSRegistration</key>
+	<dict>
+		<key>QSCommandInterfaceControllers</key>
+		<dict>
+			<key>QSWindowInterfaceController</key>
+			<string>QSWindowInterfaceController</string>
+		</dict>
+	</dict>
+	<key>QSRequirements</key>
+	<dict>
+		<key>version</key>
+		<string>4001</string>
+	</dict>
+</dict>
+</plist>
