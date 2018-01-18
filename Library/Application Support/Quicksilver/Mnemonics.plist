@@ -151,6 +151,10 @@
 		<array>
 			<string>0287C4C7-F2E3-4130-AC8D-F6194236A1C6:ABPerson</string>
 		</array>
+		<key>ethernets</key>
+		<array>
+			<string>/Applications/Ethernet Status.app</string>
+		</array>
 		<key>google</key>
 		<array>
 			<string>/Users/noamross/Google Drive</string>
@@ -243,6 +247,7 @@
 		</array>
 		<key>noam</key>
 		<array>
+			<string>E9BF0F8A-B988-497A-9409-173389AE935E:ABPerson</string>
 			<string>/Users/noamross</string>
 		</array>
 		<key>noamr</key>
@@ -385,6 +390,10 @@
 		<array>
 			<string>/Applications/App Store.app</string>
 		</array>
+		<key>sys</key>
+		<array>
+			<string>/Applications/System Preferences.app</string>
+		</array>
 		<key>sysmpre</key>
 		<array>
 			<string>QSPresetLibraryPreferencePanes</string>
@@ -420,6 +429,10 @@
 		<key>users</key>
 		<array>
 			<string>/System/Library/PreferencePanes/Accounts.prefPane</string>
+		</array>
+		<key>walsh</key>
+		<array>
+			<string>7516614B-6A14-4CB9-A41B-8655585ECE85:ABPerson</string>
 		</array>
 		<key>wo</key>
 		<array>
@@ -485,6 +498,11 @@
 			<key>diskin</key>
 			<integer>1</integer>
 		</dict>
+		<key>/Applications/Ethernet Status.app</key>
+		<dict>
+			<key>ethernets</key>
+			<integer>1</integer>
+		</dict>
 		<key>/Applications/Google Chrome.app</key>
 		<dict>
 			<key>ch</key>
@@ -512,7 +530,7 @@
 		<key>/Applications/RStudio.app</key>
 		<dict>
 			<key>rs</key>
-			<integer>6</integer>
+			<integer>7</integer>
 			<key>rst</key>
 			<integer>1</integer>
 			<key>rstu</key>
@@ -536,6 +554,8 @@
 		</dict>
 		<key>/Applications/System Preferences.app</key>
 		<dict>
+			<key>sys</key>
+			<integer>1</integer>
 			<key>syspre</key>
 			<integer>1</integer>
 			<key>syst</key>
@@ -558,7 +578,7 @@
 		<key>/Applications/aText.app</key>
 		<dict>
 			<key>at</key>
-			<integer>2</integer>
+			<integer>3</integer>
 			<key>ate</key>
 			<integer>4</integer>
 			<key>atex</key>
@@ -919,7 +939,7 @@
 		<key>1CAEDA17-8D19-48BB-99ED-99A398774A0B:ABPerson</key>
 		<dict>
 			<key>olival</key>
-			<integer>3</integer>
+			<integer>4</integer>
 		</dict>
 		<key>508E6CB8-E285-4618-898E-7A51956EA978</key>
 		<dict>
@@ -932,6 +952,11 @@
 			<key>workspace</key>
 			<integer>2</integer>
 		</dict>
+		<key>7516614B-6A14-4CB9-A41B-8655585ECE85:ABPerson</key>
+		<dict>
+			<key>walsh</key>
+			<integer>1</integer>
+		</dict>
 		<key>AppOpenFileAction</key>
 		<dict>
 			<key>open</key>
@@ -939,6 +964,8 @@
 		</dict>
 		<key>E9BF0F8A-B988-497A-9409-173389AE935E:ABPerson</key>
 		<dict>
+			<key>noam</key>
+			<integer>2</integer>
 			<key>noamross</key>
 			<integer>2</integer>
 		</dict>
@@ -986,11 +1013,13 @@
 		<dict>
 			<key>tr</key>
 			<integer>3</integer>
+			<key>tra</key>
+			<integer>1</integer>
 		</dict>
 		<key>PasteboardCopyAction</key>
 		<dict>
 			<key>cop</key>
-			<integer>1</integer>
+			<integer>2</integer>
 		</dict>
 		<key>QSClipboardStorageCopy0</key>
 		<dict>
